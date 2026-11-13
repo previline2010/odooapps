@@ -1,0 +1,1957 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* om_account_followup
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-22 07:06+0000\n"
+"PO-Revision-Date: 2026-10-22 07:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: om_account_followup
+#: model:followup.line,description:om_account_followup.demo_followup_line3
+msgid ""
+"\n"
+"                Dear %(partner_name)s,\n"
+"\n"
+"                Despite several reminders, your account is still not settled.\n"
+"\n"
+"                Unless full payment is made in next 8 days, then legal action\n"
+"                for the recovery of the debt will be taken without further\n"
+"                notice.\n"
+"\n"
+"                I trust that this action will prove unnecessary and details of\n"
+"                due payments is printed below.\n"
+"\n"
+"                In case of any queries concerning this matter, do not hesitate\n"
+"                to contact our accounting department.\n"
+"\n"
+"                Best Regards,\n"
+"            "
+msgstr ""
+"\n"
+"                Benvolgut/da %(partner_name)s,\n"
+"\n"
+"                Malgrat diversos recordatoris, el seu compte encara no s'ha liquidat.\n"
+"\n"
+"                A menys que es realitzi el pagament complet en els pròxims 8 dies, s'emprendran accions legals\n"
+"                per a la recuperació del deute sense més\n"
+"                avís.\n"
+"\n"
+"                Confio que aquesta acció resulti innecessària i els detalls dels\n"
+"                pagaments pendents s'imprimeixen a continuació.\n"
+"\n"
+"                En cas de tenir qualsevol dubte sobre aquesta qüestió, no dubti\n"
+"                a posar-se en contacte amb el nostre departament de comptabilitat.\n"
+"\n"
+"                Atentament,\n"
+"            "
+
+#. module: om_account_followup
+#: model:followup.line,description:om_account_followup.demo_followup_line1
+msgid ""
+"\n"
+"                Dear %(partner_name)s,\n"
+"\n"
+"                Exception made if there was a mistake of ours, it seems that\n"
+"                the following amount stays unpaid. Please, take appropriate\n"
+"                measures in order to carry out this payment in the next 8 days.\n"
+"\n"
+"                Would your payment have been carried out after this mail was\n"
+"                sent, please ignore this message. Do not hesitate to contact\n"
+"                our accounting department.\n"
+"\n"
+"                Best Regards,\n"
+"            "
+msgstr ""
+"\n"
+"                Benvolgut/da %(partner_name)s,\n"
+"\n"
+"                Salvant el cas que hi hagi hagut un error per la nostra part, sembla que\n"
+"                el següent import continua impagat. Sisplau, prengui les mesures\n"
+"                adequades per a realitzar aquest pagament en els pròxims 8 dies.\n"
+"\n"
+"                Si el seu pagament s'ha realitzat després d'haver enviat aquest correu,\n"
+"                sisplau ignori aquest missatge. No dubti a posar-se en contacte amb\n"
+"                el nostre departament de comptabilitat.\n"
+"\n"
+"                Atentament,\n"
+"            "
+
+#. module: om_account_followup
+#: model:followup.line,description:om_account_followup.demo_followup_line2
+msgid ""
+"\n"
+"                Dear %(partner_name)s,\n"
+"\n"
+"                We are disappointed to see that despite sending a reminder,\n"
+"                that your account is now seriously overdue.\n"
+"\n"
+"                It is essential that immediate payment is made, otherwise we\n"
+"                will have to consider placing a stop on your account which\n"
+"                means that we will no longer be able to supply your company\n"
+"                with (goods/services).\n"
+"                Please, take appropriate measures in order to carry out this\n"
+"                payment in the next 8 days.\n"
+"\n"
+"                If there is a problem with paying invoice that we are not aware\n"
+"                of, do not hesitate to contact our accounting department, so\n"
+"                that we can resolve the matter quickly.\n"
+"\n"
+"                Details of due payments is printed below.\n"
+"\n"
+"                Best Regards,\n"
+"            "
+msgstr ""
+"\n"
+"                Benvolgut/da %(partner_name)s,\n"
+"\n"
+"                Lamentem comprovar que, malgrat haver-li enviat un recordatori,\n"
+"                el seu compte està seriosament vençut.\n"
+"\n"
+"                És essencial que es realitzi el pagament immediatament; de lo contrari,\n"
+"                haurem de considerar bloquejar el seu compte, la qual cosa\n"
+"                significa que ja no podrem subministrar a la seva empresa\n"
+"                (béns/serveis).\n"
+"                Sisplau, prengui les mesures adequades per tal de realitzar aquest\n"
+"                pagament en els pròxims 8 dies.\n"
+"\n"
+"                Si hi ha algun problema amb el pagament de la factura del qual no puguem estar al corrent,\n"
+"                no dubti a posar-se en contacte amb el nostre departament de comptabilitat, per tal\n"
+"                de poder resoldre l'assumpte ràpidament.\n"
+"\n"
+"                Els detalls dels pagaments pendents s'imprimeixen a continuació.\n"
+"\n"
+"                Atentament,\n"
+"            "
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/wizard/followup_print.py:0
+msgid ""
+"%(count)s email(s) should have been sent, but %(unknown)s had unknown email "
+"address(es)"
+msgstr ""
+"S'haurien d'haver enviat %(count)s correus electrònics, però %(unknown)s "
+"tenien adreces de correu desconegudes"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/wizard/followup_send.py:0
+msgid "%(count)s reminder(s) sent."
+msgstr "S'han enviat %(count)s recordatoris."
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/wizard/followup_print.py:0
+msgid "%s email(s) sent"
+msgstr "%s correus electrònics enviats"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/wizard/followup_print.py:0
+msgid "%s letter(s) in report"
+msgstr "%s cartes en l'informe"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/wizard/followup_print.py:0
+msgid "%s manual action(s) assigned:"
+msgstr "%s acció(ns) manual(s) assignada(es):"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/wizard/followup_print.py:0
+msgid "%s partners have no credits and as such the action is cleared"
+msgstr "%s contactes no tenen crèdits i per tant s'ha esborrat l'acció"
+
+#. module: om_account_followup
+#: model:ir.actions.report,print_report_name:om_account_followup.action_report_customer_statement
+msgid "'Statement - %s' % (object.name or '')"
+msgstr "'Extracte - %s' % (object.name or '')"
+
+#. module: om_account_followup
+#: model:ir.actions.report,print_report_name:om_account_followup.action_report_vendor_statement
+msgid "'Vendor Statement - %s' % (object.name or '')"
+msgstr "'Extracte de proveïdor - %s' % (object.name or '')"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_followup
+msgid ""
+"<br/>\n"
+"                                Customer ref:"
+msgstr ""
+"<br/>\n"
+"                                Ref. client:"
+
+#. module: om_account_followup
+#: model:mail.template,body_html:om_account_followup.email_template_om_account_followup_default
+msgid ""
+"<div style=\"margin: 0; padding: 0; font-size: 14px;\">\n"
+"    <p style=\"margin: 0 0 12px 0;\">Dear <t t-out=\"object.name or ''\"/>,</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">According to our records, the invoices below are past their due date.</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">If you have already paid them, please ignore this message. Otherwise, please settle them at your earliest convenience, and do not hesitate to contact us if you have any question.</p>\n"
+"    <t t-out=\"object.get_followup_table_html()\"/>\n"
+"    <p style=\"margin: 12px 0 0 0;\">\n"
+"        Best regards,<br/>\n"
+"        <t t-out=\"user.name or ''\"/><br/>\n"
+"        <t t-out=\"env.company.name or ''\"/>\n"
+"    </p>\n"
+"</div>\n"
+"            "
+msgstr ""
+"<div style=\"margin: 0; padding: 0; font-size: 14px;\">\n"
+"    <p style=\"margin: 0 0 12px 0;\">Benvolgut/da <t t-out=\"object.name or ''\"/>,</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">Segons els nostres registres, les factures següents estan fora de termini.</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">Si ja les heu pagat, ignoreu aquest missatge. En cas contrari, liquideu-les al més aviat possible i no dubteu a contactar amb nosaltres si teniu cap pregunta.</p>\n"
+"    <t t-out=\"object.get_followup_table_html()\"/>\n"
+"    <p style=\"margin: 12px 0 0 0;\">\n"
+"        Cordialment,<br/>\n"
+"        <t t-out=\"user.name or ''\"/><br/>\n"
+"        <t t-out=\"env.company.name or ''\"/>\n"
+"    </p>\n"
+"</div>\n"
+"            "
+
+#. module: om_account_followup
+#: model:mail.template,body_html:om_account_followup.email_template_om_account_followup_level1
+msgid ""
+"<div style=\"margin: 0; padding: 0; font-size: 14px;\">\n"
+"    <p style=\"margin: 0 0 12px 0;\">Dear <t t-out=\"object.name or ''\"/>,</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">Despite our previous reminder, the invoices below are still unpaid.</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">Please settle them within the next 8 days, or let us know if there is an issue we should be aware of, so that we can solve it quickly.</p>\n"
+"    <t t-out=\"object.get_followup_table_html()\"/>\n"
+"    <p style=\"margin: 12px 0 0 0;\">\n"
+"        Best regards,<br/>\n"
+"        <t t-out=\"user.name or ''\"/><br/>\n"
+"        <t t-out=\"env.company.name or ''\"/>\n"
+"    </p>\n"
+"</div>\n"
+"            "
+msgstr ""
+"<div style=\"margin: 0; padding: 0; font-size: 14px;\">\n"
+"    <p style=\"margin: 0 0 12px 0;\">Benvolgut/da <t t-out=\"object.name or ''\"/>,</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">Malgrat el nostre recordatori anterior, les factures següents continuen impagades.</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">Sisplau, liquideu-les en els pròxims 8 dies o feu-nos saber si hi ha algun problema que hàgim de conèixer per tal de poder resoldre'l ràpidament.</p>\n"
+"    <t t-out=\"object.get_followup_table_html()\"/>\n"
+"    <p style=\"margin: 12px 0 0 0;\">\n"
+"        Cordialment,<br/>\n"
+"        <t t-out=\"user.name or ''\"/><br/>\n"
+"        <t t-out=\"env.company.name or ''\"/>\n"
+"    </p>\n"
+"</div>\n"
+"            "
+
+#. module: om_account_followup
+#: model:mail.template,body_html:om_account_followup.email_template_om_account_followup_level2
+msgid ""
+"<div style=\"margin: 0; padding: 0; font-size: 14px;\">\n"
+"    <p style=\"margin: 0 0 12px 0;\">Dear <t t-out=\"object.name or ''\"/>,</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">Despite several reminders, the invoices below are still unpaid.</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">Unless the full amount is paid within the next 8 days, we will have to put your account on hold and take further action to recover the debt. We trust this will not be necessary: please contact our accounting department if you have any question.</p>\n"
+"    <t t-out=\"object.get_followup_table_html()\"/>\n"
+"    <p style=\"margin: 12px 0 0 0;\">\n"
+"        Best regards,<br/>\n"
+"        <t t-out=\"user.name or ''\"/><br/>\n"
+"        <t t-out=\"env.company.name or ''\"/>\n"
+"    </p>\n"
+"</div>\n"
+"            "
+msgstr ""
+"<div style=\"margin: 0; padding: 0; font-size: 14px;\">\n"
+"    <p style=\"margin: 0 0 12px 0;\">Benvolgut/da <t t-out=\"object.name or ''\"/>,</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">Malgrat diversos recordatoris, les factures següents continuen impagades.</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">A menys que es pagui l'import total en els pròxims 8 dies, haurem de posar el seu compte en espera i emprendre accions addicionals per recuperar el deute. Confiem que això no serà necessari: poseu-vos en contacte amb el nostre departament de comptabilitat si teniu cap pregunta.</p>\n"
+"    <t t-out=\"object.get_followup_table_html()\"/>\n"
+"    <p style=\"margin: 12px 0 0 0;\">\n"
+"        Cordialment,<br/>\n"
+"        <t t-out=\"user.name or ''\"/><br/>\n"
+"        <t t-out=\"env.company.name or ''\"/>\n"
+"    </p>\n"
+"</div>\n"
+"            "
+
+#. module: om_account_followup
+#: model:mail.template,body_html:om_account_followup.email_template_vendor_statement
+msgid ""
+"<div style=\"margin: 0; padding: 0; font-size: 14px;\">\n"
+"    <p style=\"margin: 0 0 12px 0;\">Dear <t t-out=\"object.name or ''\"/>,</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">Please find attached the bills and payments still open in our records for your account.</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">Could you check them against your own statement and let us know of any difference?</p>\n"
+"    <p style=\"margin: 12px 0 0 0;\">\n"
+"        Best regards,<br/>\n"
+"        <t t-out=\"user.name or ''\"/><br/>\n"
+"        <t t-out=\"env.company.name or ''\"/>\n"
+"    </p>\n"
+"</div>\n"
+"            "
+msgstr ""
+"<div style=\"margin: 0; padding: 0; font-size: 14px;\">\n"
+"    <p style=\"margin: 0 0 12px 0;\">Benvolgut/da <t t-out=\"object.name or ''\"/>,</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">Adjunt trobareu les factures i pagaments que encara estan oberts als nostres registres per al vostre compte.</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">Podríeu comprovar-los amb el vostre propi extracte i comunicar-nos qualsevol diferència?</p>\n"
+"    <p style=\"margin: 12px 0 0 0;\">\n"
+"        Cordialment,<br/>\n"
+"        <t t-out=\"user.name or ''\"/><br/>\n"
+"        <t t-out=\"env.company.name or ''\"/>\n"
+"    </p>\n"
+"</div>\n"
+"            "
+
+#. module: om_account_followup
+#: model:mail.template,body_html:om_account_followup.email_template_customer_statement
+msgid ""
+"<div style=\"margin: 0; padding: 0; font-size: 14px;\">\n"
+"    <p style=\"margin: 0 0 12px 0;\">Dear <t t-out=\"object.name or ''\"/>,</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">Please find attached the statement of your account with <t t-out=\"env.company.name or ''\"/>, with the invoices and payments still open.</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">If anything does not match your records, please let us know.</p>\n"
+"    <p style=\"margin: 12px 0 0 0;\">\n"
+"        Best regards,<br/>\n"
+"        <t t-out=\"user.name or ''\"/><br/>\n"
+"        <t t-out=\"env.company.name or ''\"/>\n"
+"    </p>\n"
+"</div>\n"
+"            "
+msgstr ""
+"<div style=\"margin: 0; padding: 0; font-size: 14px;\">\n"
+"    <p style=\"margin: 0 0 12px 0;\">Benvolgut/da <t t-out=\"object.name or ''\"/>,</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">Adjunt trobareu l'extracte del vostre compte amb <t t-out=\"env.company.name or ''\"/>, amb les factures i pagaments encara oberts.</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">Si alguna cosa no coincideix amb els vostres registres, si us plau feu-nos-ho saber.</p>\n"
+"    <p style=\"margin: 12px 0 0 0;\">\n"
+"        Cordialment,<br/>\n"
+"        <t t-out=\"user.name or ''\"/><br/>\n"
+"        <t t-out=\"env.company.name or ''\"/>\n"
+"    </p>\n"
+"</div>\n"
+"            "
+
+#. module: om_account_followup
+#: model:mail.template,body_html:om_account_followup.email_template_om_account_followup_level0
+msgid ""
+"<div style=\"margin: 0; padding: 0; font-size: 14px;\">\n"
+"    <p style=\"margin: 0 0 12px 0;\">Dear <t t-out=\"object.name or ''\"/>,</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">This is a friendly reminder that the invoices below are past their due date.</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">If you have already paid them, please ignore this message. Otherwise, you can pay them from the links below or by bank transfer. Do not hesitate to contact us if you have any question.</p>\n"
+"    <t t-out=\"object.get_followup_table_html()\"/>\n"
+"    <p style=\"margin: 12px 0 0 0;\">\n"
+"        Best regards,<br/>\n"
+"        <t t-out=\"user.name or ''\"/><br/>\n"
+"        <t t-out=\"env.company.name or ''\"/>\n"
+"    </p>\n"
+"</div>\n"
+"            "
+msgstr ""
+"<div style=\"margin: 0; padding: 0; font-size: 14px;\">\n"
+"    <p style=\"margin: 0 0 12px 0;\">Benvolgut/da <t t-out=\"object.name or ''\"/>,</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">Aquest és un recordatori cordial que les factures següents han vençut.</p>\n"
+"    <p style=\"margin: 0 0 12px 0;\">Si ja les heu pagat, ignoreu aquest missatge. En cas contrari, podeu pagar-les des dels enllaços següents o per transferència bancària. No dubteu a contactar amb nosaltres si teniu cap pregunta.</p>\n"
+"    <t t-out=\"object.get_followup_table_html()\"/>\n"
+"    <p style=\"margin: 12px 0 0 0;\">\n"
+"        Cordialment,<br/>\n"
+"        <t t-out=\"user.name or ''\"/><br/>\n"
+"        <t t-out=\"env.company.name or ''\"/>\n"
+"    </p>\n"
+"</div>\n"
+"            "
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_partner_inherit_followup_form
+msgid "<span class=\"fw-bold me-1\">Vendor Statement</span>"
+msgstr "<span class=\"fw-bold me-1\">Extracte de proveïdor</span>"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_followup_line_form
+msgid "<span class=\"ms-2\">days overdue</span>"
+msgstr "<span class=\"ms-2\">dies de retard</span>"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.customer_followup_kanban
+msgid "<span class=\"text-muted\">Due</span>"
+msgstr "<span class=\"text-muted\">Pendent</span>"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.customer_followup_kanban
+msgid "<span class=\"text-muted\">Overdue</span>"
+msgstr "<span class=\"text-muted\">Vençut</span>"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_customer_statement_document
+msgid "<strong>Date</strong>"
+msgstr "<strong>Data</strong>"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_customer_statement_document
+msgid "<strong>Payment Details</strong>"
+msgstr "<strong>Detalls del pagament</strong>"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_customer_statement_document
+msgid "<strong>Reminder</strong>"
+msgstr "<strong>Recordatori</strong>"
+
+#. module: om_account_followup
+#: model:mail.template,name:om_account_followup.email_template_om_account_followup_level1
+msgid "A bit urging second payment follow-up reminder email"
+msgstr ""
+"Segon correu de recordatori de seguiment de pagament una mica més urgent"
+
+#. module: om_account_followup
+#: model_terms:ir.actions.act_window,help:om_account_followup.action_om_account_followup_definition_form
+msgid ""
+"A plan lists the reminders sent to the customers who do not pay on time: after how many days,\n"
+"                    by email, by letter, or as an action for the person in charge."
+msgstr ""
+"Un pla llista els recordatoris enviats als clients que no paguen a temps: després de quants dies,\n"
+"                    per correu electrònic, per carta o com a acció per a la persona encarregada."
+
+#. module: om_account_followup
+#: model:ir.model,name:om_account_followup.model_followup_followup
+msgid "Account Follow-up"
+msgstr "Seguiment de comptes"
+
+#. module: om_account_followup
+#: model:ir.model.fields.selection,name:om_account_followup.selection__res_partner__followup_status__in_need_of_action
+#: model_terms:ir.ui.view,arch_db:om_account_followup.customer_followup_search_view
+msgid "Action Needed"
+msgstr "Acció necessària"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_line__manual_action_note
+msgid "Action To Do"
+msgstr "Acció a realitzar"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_followup_line_form
+msgid "Actions"
+msgstr "Accions"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_customer_statement_document
+msgid "Ageing"
+msgstr "Antiguitat"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_customer_statement_document
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_followup_open_items
+msgid "Amount"
+msgstr "Import"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+msgid "Amount (%s)"
+msgstr "Import (%s)"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_stat__balance
+#: model:ir.model.fields,field_description:om_account_followup.field_res_partner__payment_amount_due
+#: model:ir.model.fields,field_description:om_account_followup.field_res_users__payment_amount_due
+msgid "Amount Due"
+msgstr "Import pendent"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_stat__balance_overdue
+#: model:ir.model.fields,field_description:om_account_followup.field_res_partner__payment_amount_overdue
+#: model:ir.model.fields,field_description:om_account_followup.field_res_users__payment_amount_overdue
+msgid "Amount Overdue"
+msgstr "Import vençut"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_partner_inherit_followup_form
+msgid "Amounts"
+msgstr "Imports"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/wizard/followup_print.py:0
+msgid "Anybody"
+msgstr "Algú"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_line__manual_action_responsible_id
+msgid "Assign a Responsible"
+msgstr "Assigna un responsable"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_send__attach_invoices
+msgid "Attach the Overdue Invoices"
+msgstr "Adjunta les factures vençudes"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_stat_by_partner__balance
+msgid "Balance"
+msgstr "Saldo"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.om_account_followup_stat_by_partner_search
+msgid "Balance > 0"
+msgstr "Saldo > 0"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_account_move_line__result
+msgid "Balance Amount"
+msgstr "Import del saldo"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_send__body
+msgid "Body"
+msgstr "Cos"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/followup.py:0
+msgid "Call the customer about the overdue invoices."
+msgstr "Truca al client per les factures vençudes."
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_followup_send_form
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_print
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+msgid "Choose the email template of the reminder."
+msgstr "Tria la plantilla de correu electrònic del recordatori."
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/followup.py:0
+msgid "Choose the user sending the automatic follow-ups."
+msgstr "Tria l'usuari que envia els seguiments automàtics."
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/wizard/followup_send.py:0
+msgid "Choose to send an email, to print a letter, or both."
+msgstr "Tria enviar un correu electrònic, imprimir una carta o tots dos."
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_partner_inherit_followup_form
+msgid "Clear Promise"
+msgstr "Neteja la promesa"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_sending_results
+msgid "Close"
+msgstr "Tanca"
+
+#. module: om_account_followup
+#: model:ir.model,name:om_account_followup.model_res_company
+msgid "Companies"
+msgstr "Empreses"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_followup__company_id
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_print__company_id
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_stat__company_id
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_stat_by_partner__company_id
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_stat_search
+msgid "Company"
+msgstr "Empresa"
+
+#. module: om_account_followup
+#: model:ir.model,name:om_account_followup.model_res_config_settings
+msgid "Config Settings"
+msgstr "Paràmetres de configuració"
+
+#. module: om_account_followup
+#: model:ir.model,name:om_account_followup.model_res_partner
+msgid "Contact"
+msgstr "Contacte"
+
+#. module: om_account_followup
+#: model_terms:ir.actions.act_window,help:om_account_followup.action_om_account_followup_definition_form
+msgid "Create a follow-up plan"
+msgstr "Crea un pla de seguiment"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_followup__create_uid
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_line__create_uid
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_print__create_uid
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_send__create_uid
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_sending_results__create_uid
+msgid "Created by"
+msgstr "Creat per"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_followup__create_date
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_line__create_date
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_print__create_date
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_send__create_date
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_sending_results__create_date
+msgid "Created on"
+msgstr "Creat el"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_stat__credit
+msgid "Credit"
+msgstr "Haver"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_stat__partner_id
+#: model_terms:ir.ui.view,arch_db:om_account_followup.customer_followup_tree
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_followup_send_form
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_stat_search
+msgid "Customer"
+msgstr "Client"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_res_partner__payment_note
+#: model:ir.model.fields,field_description:om_account_followup.field_res_users__payment_note
+msgid "Customer Payment Promise"
+msgstr "Promesa de pagament del client"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_customer_statement_document
+msgid "Customer Reference"
+msgstr "Referència del client"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+#: model:ir.actions.report,name:om_account_followup.action_report_customer_statement
+#: model:ir.model,name:om_account_followup.model_report_om_account_followup_report_customer_statement
+#: model:mail.template,name:om_account_followup.email_template_customer_statement
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_customer_statement_document
+msgid "Customer Statement"
+msgstr "Extracte de client"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+msgid "Customer statement printed"
+msgstr "Extracte de client imprès"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_send__partner_ids
+msgid "Customers"
+msgstr "Clients"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_customer_statement_document
+msgid "Date"
+msgstr "Data"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_customer_statement_document
+msgid "Days Overdue"
+msgstr "Dies de retard"
+
+#. module: om_account_followup
+#: model:ir.model.constraint,message:om_account_followup.constraint_followup_line_days_uniq
+msgid "Days of the follow-up levels must be different"
+msgstr "Els dies dels nivells de seguiment han de ser diferents"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_stat__debit
+msgid "Debit"
+msgstr "Deure"
+
+#. module: om_account_followup
+#: model:mail.template,name:om_account_followup.email_template_om_account_followup_default
+msgid "Default payment follow-up reminder e-mail"
+msgstr "Correu electrònic de recordatori de seguiment de pagament per defecte"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_sending_results__description
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_followup
+msgid "Description"
+msgstr "Descripció"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_account_move__display_name
+#: model:ir.model.fields,field_description:om_account_followup.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_followup__display_name
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_line__display_name
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_print__display_name
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_send__display_name
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_sending_results__display_name
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_stat__display_name
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_stat_by_partner__display_name
+#: model:ir.model.fields,field_description:om_account_followup.field_report_om_account_followup_report_customer_statement__display_name
+#: model:ir.model.fields,field_description:om_account_followup.field_report_om_account_followup_report_followup__display_name
+#: model:ir.model.fields,field_description:om_account_followup.field_report_om_account_followup_report_vendor_statement__display_name
+#: model:ir.model.fields,field_description:om_account_followup.field_res_company__display_name
+#: model:ir.model.fields,field_description:om_account_followup.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:om_account_followup.field_res_partner__display_name
+msgid "Display Name"
+msgstr "Nom visible"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_account_bank_statement_line__followup_dispute_reason
+#: model:ir.model.fields,field_description:om_account_followup.field_account_move__followup_dispute_reason
+msgid "Dispute Reason"
+msgstr "Motiu del desacord"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+#: model:ir.model.fields,field_description:om_account_followup.field_account_bank_statement_line__followup_disputed
+#: model:ir.model.fields,field_description:om_account_followup.field_account_move__followup_disputed
+#: model:ir.model.fields,field_description:om_account_followup.field_account_move_line__followup_disputed
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_customer_statement_document
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_account_invoice_filter_followup
+msgid "Disputed"
+msgstr "En disputa"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_customer_statement_document
+msgid "Document"
+msgstr "Document"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_followup
+msgid ""
+"Document: Customer account statement\n"
+"                                <br/>\n"
+"                                Date:"
+msgstr ""
+"Document: Extracte de compte del client\n"
+"                                <br/>\n"
+"                                Data:"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_sending_results
+msgid "Download Letters"
+msgstr "Descarrega les cartes"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_followup
+msgid "Due"
+msgstr "Pendent"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_customer_statement_document
+msgid "Due Date"
+msgstr "Data de venciment"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_line__delay
+msgid "Due Days"
+msgstr "Dies pendents"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_followup_send_form
+msgid ""
+"Each customer receives the email of the template, with its own overdue "
+"invoices."
+msgstr ""
+"Cada client rep el correu de la plantilla, amb les seves pròpies factures "
+"vençudes."
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_send__send_email
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_followup_line_form
+msgid "Email"
+msgstr "Correu electrònic"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_line__email_template_id
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_send__template_id
+msgid "Email Template"
+msgstr "Plantilla de correu electrònic"
+
+#. module: om_account_followup
+#: model:ir.model.fields,help:om_account_followup.field_followup_followup__auto_send
+msgid ""
+"Every day, send the reminders that are due: update the follow-up levels, "
+"send the emails and schedule the manual actions. Letters are not printed "
+"automatically: print them from the customers."
+msgstr ""
+"Cada dia, envia els recordatoris pendents: actualitza els nivells de "
+"seguiment, envia els correus electrònics i programa les accions manuals. Les"
+" cartes no s'imprimeixen automàticament: imprimeix-les des dels clients."
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_partner_inherit_followup_form
+msgid "Excel"
+msgstr "Excel"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.customer_followup_tree
+msgid "Exclude"
+msgstr "Exclou"
+
+#. module: om_account_followup
+#: model:ir.model.fields.selection,name:om_account_followup.selection__res_partner__followup_status__excluded
+#: model_terms:ir.ui.view,arch_db:om_account_followup.customer_followup_search_view
+msgid "Excluded"
+msgstr "Exclòs"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_res_partner__followup_excluded
+#: model:ir.model.fields,field_description:om_account_followup.field_res_users__followup_excluded
+msgid "Excluded from Follow-ups"
+msgstr "Exclòs dels seguiments"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/wizard/followup_send.py:0
+msgid "Excluded from the follow-ups: %s"
+msgstr "Exclòs dels seguiments: %s"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_partner_inherit_followup_form
+msgid "Exclusion"
+msgstr "Exclusió"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_res_partner__followup_exclusion_reason
+#: model:ir.model.fields,field_description:om_account_followup.field_res_users__followup_exclusion_reason
+msgid "Exclusion Reason"
+msgstr "Motiu d'exclusió"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/followup.py:0
+msgid "Final notice"
+msgstr "Avís final"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_stat__date_move
+msgid "First Open Item"
+msgstr "Primer apunt obert"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_stat_by_partner__date_move
+msgid "First move"
+msgstr "Primer moviment"
+
+#. module: om_account_followup
+#: model:mail.template,name:om_account_followup.email_template_om_account_followup_level0
+msgid "First polite payment follow-up reminder email"
+msgstr "Primer correu de recordatori de seguiment de pagament cordial"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_line__followup_id
+msgid "Follow Ups"
+msgstr "Seguiments"
+
+#. module: om_account_followup
+#: model:mail.activity.type,summary:om_account_followup.mail_activity_type_followup
+msgid "Follow up the overdue payments"
+msgstr "Fes el seguiment dels pagaments vençuts"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_line__name
+msgid "Follow-Up Action"
+msgstr "Acció de seguiment"
+
+#. module: om_account_followup
+#: model:ir.ui.menu,name:om_account_followup.menu_action_followup_stat_follow
+msgid "Follow-Up Analysis"
+msgstr "Anàlisi de seguiment"
+
+#. module: om_account_followup
+#: model:ir.ui.menu,name:om_account_followup.menu_finance_followup
+msgid "Follow-Ups"
+msgstr "Seguiments"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_followup__followup_line
+#: model:ir.ui.menu,name:om_account_followup.om_account_followup_main_menu
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_partner_inherit_followup_form
+msgid "Follow-up"
+msgstr "Seguiment"
+
+#. module: om_account_followup
+#: model:ir.actions.act_window,name:om_account_followup.action_followup_stat
+msgid "Follow-up Analysis"
+msgstr "Anàlisi de seguiment"
+
+#. module: om_account_followup
+#: model:ir.model,name:om_account_followup.model_followup_line
+msgid "Follow-up Criteria"
+msgstr "Criteris de seguiment"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_account_move_line__followup_line_id
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_stat__followup_id
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_followup_line_form
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_stat_search
+msgid "Follow-up Level"
+msgstr "Nivell de seguiment"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_followup_line_tree
+msgid "Follow-up Levels"
+msgstr "Nivells de seguiment"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_followup_form
+msgid "Follow-up Plan"
+msgstr "Pla de seguiment"
+
+#. module: om_account_followup
+#: model:ir.actions.act_window,name:om_account_followup.action_om_account_followup_definition_form
+#: model:ir.ui.menu,name:om_account_followup.om_account_followup_menu
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_followup_tree
+msgid "Follow-up Plans"
+msgstr "Plans de seguiment"
+
+#. module: om_account_followup
+#: model:ir.actions.report,name:om_account_followup.action_report_followup
+msgid "Follow-up Report"
+msgstr "Informe de seguiment"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_res_partner__payment_responsible_id
+#: model:ir.model.fields,field_description:om_account_followup.field_res_users__payment_responsible_id
+#: model_terms:ir.ui.view,arch_db:om_account_followup.customer_followup_search_view
+msgid "Follow-up Responsible"
+msgstr "Responsable de seguiment"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_print__date
+msgid "Follow-up Sending Date"
+msgstr "Data d'enviament del seguiment"
+
+#. module: om_account_followup
+#: model:ir.model,name:om_account_followup.model_followup_stat
+msgid "Follow-up Statistics"
+msgstr "Estadístiques de seguiment"
+
+#. module: om_account_followup
+#: model:ir.model,name:om_account_followup.model_followup_stat_by_partner
+msgid "Follow-up Statistics by Partner"
+msgstr "Estadístiques de seguiment per contacte"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_res_partner__followup_status
+#: model:ir.model.fields,field_description:om_account_followup.field_res_users__followup_status
+msgid "Follow-up Status"
+msgstr "Estat del seguiment"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/wizard/followup_print.py:0
+msgid "Follow-up letter of %s will be sent"
+msgstr "S'enviarà la carta de seguiment de %s"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+msgid "Follow-up reminder sent: %s"
+msgstr "Recordatori de seguiment enviat: %s"
+
+#. module: om_account_followup
+#: model:ir.actions.server,name:om_account_followup.ir_cron_send_followups_ir_actions_server
+msgid "Follow-up: send the reminders due"
+msgstr "Seguiment: envia els recordatoris pendents"
+
+#. module: om_account_followup
+#: model:ir.actions.act_window,name:om_account_followup.action_customer_followup
+#: model:ir.ui.menu,name:om_account_followup.om_account_followup_s
+#: model_terms:ir.ui.view,arch_db:om_account_followup.customer_followup_tree
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_stat_graph
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_stat_list
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_stat_pivot
+msgid "Follow-ups"
+msgstr "Seguiments"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_stat_search
+msgid "Follow-ups Sent"
+msgstr "Seguiments enviats"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_res_partner__followup_currency_id
+#: model:ir.model.fields,field_description:om_account_followup.field_res_users__followup_currency_id
+msgid "Followup Currency"
+msgstr "Moneda de seguiment"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/followup.py:0
+msgid "Friendly reminder"
+msgstr "Recordatori cordial"
+
+#. module: om_account_followup
+#: model:ir.model.fields,help:om_account_followup.field_followup_line__sequence
+#: model:ir.model.fields,help:om_account_followup.field_res_partner__latest_followup_sequence
+#: model:ir.model.fields,help:om_account_followup.field_res_users__latest_followup_sequence
+msgid "Gives the sequence order when displaying a list of follow-up lines."
+msgstr ""
+"Indica l'ordre de seqüència quan es mostra una llista de línies de "
+"seguiment."
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_account_move__id
+#: model:ir.model.fields,field_description:om_account_followup.field_account_move_line__id
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_followup__id
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_line__id
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_print__id
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_send__id
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_sending_results__id
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_stat__id
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_stat_by_partner__id
+#: model:ir.model.fields,field_description:om_account_followup.field_report_om_account_followup_report_customer_statement__id
+#: model:ir.model.fields,field_description:om_account_followup.field_report_om_account_followup_report_followup__id
+#: model:ir.model.fields,field_description:om_account_followup.field_report_om_account_followup_report_vendor_statement__id
+#: model:ir.model.fields,field_description:om_account_followup.field_res_company__id
+#: model:ir.model.fields,field_description:om_account_followup.field_res_config_settings__id
+#: model:ir.model.fields,field_description:om_account_followup.field_res_partner__id
+msgid "ID"
+msgstr "ID"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_customer_statement_document
+msgid ""
+"If you have already paid, please ignore the overdue amounts. For any question about this\n"
+"                    statement, contact our accounting department."
+msgstr ""
+"Si ja heu pagat, ignoreu els imports vençuts. Per a qualsevol pregunta sobre aquest\n"
+"                    extracte, poseu-vos en contacte amb el nostre departament de comptabilitat."
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_partner_inherit_followup_form
+msgid "In charge of the collection"
+msgstr "Encarregat del cobrament"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_stat_by_partner__invoice_partner_id
+msgid "Invoice Address"
+msgstr "Adreça de facturació"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_followup
+msgid "Invoice Date"
+msgstr "Data de la factura"
+
+#. module: om_account_followup
+#: model:ir.model,name:om_account_followup.model_account_move
+msgid "Journal Entry"
+msgstr "Assentament comptable"
+
+#. module: om_account_followup
+#: model:ir.model,name:om_account_followup.model_account_move_line
+msgid "Journal Item"
+msgstr "Apunt comptable"
+
+#. module: om_account_followup
+#: model:ir.actions.act_window,name:om_account_followup.account_manual_reconcile_action
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_move_line_reconcile_tree
+msgid "Journal Items to Reconcile"
+msgstr "Apunts comptables a conciliar"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_followup__last_auto_send
+msgid "Last Automatic Sending"
+msgstr "Últim enviament automàtic"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_stat__date_move_last
+msgid "Last Open Item"
+msgstr "Últim apunt obert"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.customer_followup_tree
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_partner_inherit_followup_form
+msgid "Last Reminder"
+msgstr "Últim recordatori"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_followup__write_uid
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_line__write_uid
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_print__write_uid
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_send__write_uid
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_sending_results__write_uid
+msgid "Last Updated by"
+msgstr "Última actualització per"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_followup__write_date
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_line__write_date
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_print__write_date
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_send__write_date
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_sending_results__write_date
+msgid "Last Updated on"
+msgstr "Última actualització el"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_stat_by_partner__date_move_last
+msgid "Last move"
+msgstr "Últim moviment"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_account_move_line__followup_date
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_stat__date_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_stat_search
+msgid "Latest Follow-up"
+msgstr "Últim seguiment"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_res_partner__latest_followup_date
+#: model:ir.model.fields,field_description:om_account_followup.field_res_users__latest_followup_date
+msgid "Latest Follow-up Date"
+msgstr "Data de l'últim seguiment"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_res_partner__latest_followup_level_id
+#: model:ir.model.fields,field_description:om_account_followup.field_res_users__latest_followup_level_id
+msgid "Latest Follow-up Level"
+msgstr "Nivell de l'últim seguiment"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_res_partner__latest_followup_level_id_without_lit
+#: model:ir.model.fields,field_description:om_account_followup.field_res_users__latest_followup_level_id_without_lit
+msgid "Latest Follow-up Level without litigation"
+msgstr "Nivell de l'últim seguiment sense litigi"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_stat_search
+msgid "Latest Follow-up Month"
+msgstr "Mes de l'últim seguiment"
+
+#. module: om_account_followup
+#: model:ir.model.fields,help:om_account_followup.field_res_partner__latest_followup_date
+#: model:ir.model.fields,help:om_account_followup.field_res_users__latest_followup_date
+msgid "Latest date that the follow-up level of the partner was changed"
+msgstr "Última data en què va canviar el nivell de seguiment del contacte"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_stat_by_partner__date_followup
+msgid "Latest follow-up"
+msgstr "Últim seguiment"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_send__print_letter
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_followup_line_form
+msgid "Letter"
+msgstr "Carta"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_partner_inherit_followup_form
+msgid "Log a Call"
+msgstr "Registra una trucada"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_line__manual_action
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_followup_line_form
+msgid "Manual Action"
+msgstr "Acció manual"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_followup
+msgid "Maturity Date"
+msgstr "Data de venciment"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_stat_by_partner__max_followup_id
+msgid "Max Follow Up Level"
+msgstr "Nivell màxim de seguiment"
+
+#. module: om_account_followup
+#: model:ir.actions.act_window,name:om_account_followup.action_customer_my_followup
+#: model:ir.ui.menu,name:om_account_followup.menu_sale_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.customer_followup_search_view
+msgid "My Follow-ups"
+msgstr "Els meus seguiments"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_followup__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_sending_results__needprinting
+msgid "Needs Printing"
+msgstr "Requereix impressió"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_res_partner__payment_next_action
+#: model:ir.model.fields,field_description:om_account_followup.field_res_users__payment_next_action
+msgid "Next Action"
+msgstr "Següent acció"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_res_partner__payment_next_action_date
+#: model:ir.model.fields,field_description:om_account_followup.field_res_users__payment_next_action_date
+msgid "Next Action Date"
+msgstr "Data de la següent acció"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_res_partner__followup_next_date
+#: model:ir.model.fields,field_description:om_account_followup.field_res_users__followup_next_date
+msgid "Next Reminder"
+msgstr "Següent recordatori"
+
+#. module: om_account_followup
+#: model:ir.model.fields.selection,name:om_account_followup.selection__res_partner__followup_status__no_action_needed
+msgid "No Overdue"
+msgstr "Sense venciment"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.customer_followup_search_view
+msgid "No Responsible"
+msgstr "Sense responsable"
+
+#. module: om_account_followup
+#: model_terms:ir.actions.act_window,help:om_account_followup.action_customer_my_followup
+msgid "No customer to follow up"
+msgstr "Cap client a seguir"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/wizard/followup_send.py:0
+msgid "No email address: %s"
+msgstr "Sense adreça de correu electrònic: %s"
+
+#. module: om_account_followup
+#: model_terms:ir.actions.act_window,help:om_account_followup.account_manual_reconcile_action
+msgid "No journal items found."
+msgstr "No s'han trobat apunts comptables."
+
+#. module: om_account_followup
+#: model_terms:ir.actions.act_window,help:om_account_followup.action_followup_stat
+msgid "No overdue customer"
+msgstr "Cap client amb factures vençudes"
+
+#. module: om_account_followup
+#: model:ir.model.fields,help:om_account_followup.field_res_partner__followup_excluded
+#: model:ir.model.fields,help:om_account_followup.field_res_users__followup_excluded
+msgid "No reminder is sent to this customer."
+msgstr "No s'envia cap recordatori a aquest client."
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/wizard/followup_send.py:0
+msgid "Not sent, without email address: %s"
+msgstr "No enviat, sense adreça de correu electrònic: %s"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_partner_inherit_followup_form
+msgid "Note"
+msgstr "Nota"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/wizard/followup_print.py:0
+msgid "Nothing is due any more."
+msgstr "Ja no hi ha res pendent."
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_customer_statement_document
+msgid "Nothing is open on this account."
+msgstr "No hi ha res obert en aquest compte."
+
+#. module: om_account_followup
+#: model_terms:ir.actions.act_window,help:om_account_followup.action_customer_followup
+msgid "Nothing to follow up"
+msgstr "Res a seguir"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.customer_followup_tree
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_partner_inherit_followup_form
+msgid "Oldest Due Date"
+msgstr "Data de venciment més antiga"
+
+#. module: om_account_followup
+#: model:ir.model.constraint,message:om_account_followup.constraint_followup_followup_company_uniq
+msgid "Only one follow-up per company is allowed"
+msgstr "Només es permet un seguiment per empresa"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_customer_statement_document
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_followup_open_items
+msgid "Open Amount"
+msgstr "Import obert"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+msgid "Open Amount (%s)"
+msgstr "Import obert (%s)"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_followup_open_items
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_partner_inherit_followup_form
+msgid "Open Items"
+msgstr "Apunts oberts"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+#: model:ir.model.fields.selection,name:om_account_followup.selection__res_partner__followup_status__with_overdue_invoices
+#: model_terms:ir.ui.view,arch_db:om_account_followup.customer_followup_search_view
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_customer_statement_document
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_stat_search
+msgid "Overdue"
+msgstr "Vençut"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_stat_by_partner__partner_id
+msgid "Partner"
+msgstr "Contacte"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_send__partner_count
+msgid "Partner Count"
+msgstr "Recompte de contactes"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.account_move_line_partner_tree
+msgid "Partner Entries"
+msgstr "Assentaments del contacte"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.om_account_followup_stat_by_partner_search
+#: model_terms:ir.ui.view,arch_db:om_account_followup.om_account_followup_stat_by_partner_tree
+msgid "Partner to Remind"
+msgstr "Contacte a recordar"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_print__partner_ids
+msgid "Partners"
+msgstr "Contactes"
+
+#. module: om_account_followup
+#: model:mail.activity.type,name:om_account_followup.mail_activity_type_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_partner_inherit_followup_form
+msgid "Payment Follow-up"
+msgstr "Seguiment de pagaments"
+
+#. module: om_account_followup
+#: model:ir.model.fields,help:om_account_followup.field_res_partner__payment_note
+#: model:ir.model.fields,help:om_account_followup.field_res_users__payment_note
+msgid "Payment Note"
+msgstr "Nota de pagament"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+msgid "Payment follow-up call"
+msgstr "Trucada de seguiment de pagament"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_print__followup_id
+msgid "Plan"
+msgstr "Pla"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_customer_statement_document
+msgid ""
+"Please check these open amounts against your records and let our accounting department know\n"
+"                    of any difference."
+msgstr ""
+"Comproveu aquests imports oberts amb els vostres registres i feu saber al nostre departament de comptabilitat\n"
+"                    qualsevol diferència."
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_partner_inherit_followup_form
+msgid "Print"
+msgstr "Imprimeix"
+
+#. module: om_account_followup
+#: model:ir.model,name:om_account_followup.model_followup_print
+msgid "Print Follow-up & Send Mail to Customers"
+msgstr "Imprimeix el seguiment i envia correus als clients"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_partner_inherit_followup_form
+msgid "Print Statement"
+msgstr "Imprimeix l'extracte"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.customer_followup_tree
+msgid "Print Statements"
+msgstr "Imprimeix els extractes"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_line__description
+msgid "Printed Message"
+msgstr "Missatge imprès"
+
+#. module: om_account_followup
+#: model:ir.model.fields.selection,name:om_account_followup.selection__res_partner__followup_status__promise
+#: model_terms:ir.ui.view,arch_db:om_account_followup.customer_followup_search_view
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_partner_inherit_followup_form
+msgid "Promise to Pay"
+msgstr "Promesa de pagament"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_res_partner__followup_promise_amount
+#: model:ir.model.fields,field_description:om_account_followup.field_res_users__followup_promise_amount
+msgid "Promised Amount"
+msgstr "Import promès"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_res_partner__followup_promise_date
+#: model:ir.model.fields,field_description:om_account_followup.field_res_users__followup_promise_date
+msgid "Promised Payment Date"
+msgstr "Data de pagament promesa"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_send__recipient_ids
+msgid "Recipients"
+msgstr "Destinataris"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_followup
+msgid "Ref"
+msgstr "Ref."
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_customer_statement_document
+msgid "Reference"
+msgstr "Referència"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_stat_search
+msgid "Reminded"
+msgstr "Recordat"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_send__level_id
+msgid "Reminder"
+msgstr "Recordatori"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_res_partner__followup_level_due_id
+#: model:ir.model.fields,field_description:om_account_followup.field_res_users__followup_level_due_id
+msgid "Reminder Due"
+msgstr "Recordatori pendent"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+msgid "Reminder not sent"
+msgstr "Recordatori no enviat"
+
+#. module: om_account_followup
+#: model:ir.model,name:om_account_followup.model_report_om_account_followup_report_followup
+msgid "Report Followup"
+msgstr "Informe de seguiment"
+
+#. module: om_account_followup
+#: model:ir.model,name:om_account_followup.model_followup_sending_results
+msgid "Results from the sending of the different letters and emails"
+msgstr ""
+"Resultats de l'enviament de les diferents cartes i correus electrònics"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_filter
+msgid "Search Follow-up Plans"
+msgstr "Cerca plans de seguiment"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/followup.py:0
+msgid "Second reminder"
+msgstr "Segon recordatori"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_followup_send_form
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_partner_inherit_followup_form
+msgid "Send"
+msgstr "Envia"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_followup_line_form
+msgid "Send After"
+msgstr "Envia després de"
+
+#. module: om_account_followup
+#: model:ir.actions.act_window,name:om_account_followup.action_om_account_followup_print
+#: model:ir.ui.menu,name:om_account_followup.om_account_followup_print_menu
+msgid "Send All Reminders"
+msgstr "Envia tots els recordatoris"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_followup__auto_user_id
+msgid "Send As"
+msgstr "Envia com a"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_followup__auto_send
+msgid "Send Automatically"
+msgstr "Envia automàticament"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+msgid "Send Customer Statement"
+msgstr "Envia l'extracte de client"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/wizard/followup_print.py:0
+msgid "Send Letters and Emails: Actions Summary"
+msgstr "Envia cartes i correus electrònics: Resum d'accions"
+
+#. module: om_account_followup
+#: model:ir.model,name:om_account_followup.model_followup_send
+msgid "Send Payment Reminder"
+msgstr "Envia recordatori de pagament"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+#: model:ir.actions.act_window,name:om_account_followup.action_followup_send
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_followup_send_form
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_partner_inherit_followup_form
+msgid "Send Reminder"
+msgstr "Envia recordatori"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.customer_followup_tree
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_print
+msgid "Send Reminders"
+msgstr "Envia recordatoris"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_partner_inherit_followup_form
+msgid "Send Statement"
+msgstr "Envia l'extracte"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.customer_followup_tree
+msgid "Send Statements"
+msgstr "Envia els extractes"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+msgid "Send Vendor Statement"
+msgstr "Envia l'extracte de proveïdor"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_line__send_letter
+msgid "Send a Letter"
+msgstr "Envia una carta"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_line__send_email
+msgid "Send an Email"
+msgstr "Envia un correu electrònic"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_print
+msgid "Send follow-ups"
+msgstr "Envia els seguiments"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_print
+msgid ""
+"Send the reminders due to the customers of the plan: the emails are sent, the letters are\n"
+"                        gathered in one PDF and the manual actions are scheduled. The excluded customers and the\n"
+"                        ones who promised to pay later are left alone."
+msgstr ""
+"Envia els recordatoris pendents als clients del pla: s'envien els correus electrònics, les cartes\n"
+"                        es recopilen en un PDF i es programen les accions manuals. Els clients exclosos i els\n"
+"                        que van prometre pagar més tard es deixen de banda."
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_line__sequence
+#: model:ir.model.fields,field_description:om_account_followup.field_res_partner__latest_followup_sequence
+#: model:ir.model.fields,field_description:om_account_followup.field_res_users__latest_followup_sequence
+msgid "Sequence"
+msgstr "Seqüència"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_partner_inherit_followup_form
+msgid "Statement in Excel"
+msgstr "Extracte en Excel"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.customer_followup_tree
+msgid "Statements in Excel"
+msgstr "Extractes en Excel"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_send__subject
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_followup_send_form
+msgid "Subject"
+msgstr "Assumpte"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_sending_results
+msgid "Summary of Actions"
+msgstr "Resum d'accions"
+
+#. module: om_account_followup
+#: model:ir.model.fields,help:om_account_followup.field_followup_send__attach_invoices
+msgid "The PDF of the overdue invoices are attached to the email."
+msgstr "El PDF de les factures vençudes s'adjunta al correu electrònic."
+
+#. module: om_account_followup
+#: model_terms:ir.actions.act_window,help:om_account_followup.action_followup_stat
+msgid ""
+"The amounts due and overdue of the customers, by follow-up level, once "
+"invoices are past their due date."
+msgstr ""
+"Els imports pendents i vençuts dels clients, per nivell de seguiment, una "
+"vegada que les factures han superat la data de venciment."
+
+#. module: om_account_followup
+#: model:ir.model.fields,help:om_account_followup.field_account_bank_statement_line__followup_disputed
+#: model:ir.model.fields,help:om_account_followup.field_account_move__followup_disputed
+#: model:ir.model.fields,help:om_account_followup.field_account_move_line__followup_disputed
+msgid ""
+"The customer disputes this invoice: it is left out of the follow-up "
+"reminders and of the overdue amounts until the dispute is settled."
+msgstr ""
+"El client disputa aquesta factura: es deixa fora dels recordatoris de "
+"seguiment i dels imports vençuts fins que es resolgui la disputa."
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_move_form_followup
+msgid ""
+"The customer disputes this invoice: it is left out of the payment reminders."
+msgstr ""
+"El client disputa aquesta factura: es deixa fora dels recordatoris de "
+"pagament."
+
+#. module: om_account_followup
+#: model:ir.model.fields,help:om_account_followup.field_res_partner__followup_promise_date
+#: model:ir.model.fields,help:om_account_followup.field_res_users__followup_promise_date
+msgid ""
+"The customer promised to pay by this date: no reminder is sent until then."
+msgstr ""
+"El client ha promès pagar abans d'aquesta data: no s'enviarà cap recordatori"
+" fins aleshores."
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/wizard/followup_send.py:0
+msgid "The customers are excluded from the follow-ups."
+msgstr "Els clients estan exclosos dels seguiments."
+
+#. module: om_account_followup
+#: model_terms:ir.actions.act_window,help:om_account_followup.action_customer_my_followup
+msgid ""
+"The customers with an amount due whose follow-up you are responsible for are"
+" listed here."
+msgstr ""
+"Els clients amb un import pendent del seguiment dels quals sou responsable "
+"es llisten aquí."
+
+#. module: om_account_followup
+#: model_terms:ir.actions.act_window,help:om_account_followup.action_customer_followup
+msgid ""
+"The customers with open invoices show here, with the reminders to send "
+"today."
+msgstr ""
+"Els clients amb factures obertes es mostren aquí, amb els recordatoris a "
+"enviar avui."
+
+#. module: om_account_followup
+#: model:ir.model.fields,help:om_account_followup.field_res_partner__followup_next_date
+#: model:ir.model.fields,help:om_account_followup.field_res_users__followup_next_date
+msgid ""
+"The day the next reminder is due, from the due dates of the open invoices "
+"and the delays of the follow-up plan."
+msgstr ""
+"El dia que venç el pròxim recordatori, a partir de les dates de venciment de"
+" les factures obertes i els retards del pla de seguiment."
+
+#. module: om_account_followup
+#: model:ir.model.fields,help:om_account_followup.field_followup_followup__auto_user_id
+msgid ""
+"The follow-up emails are sent in the name of this user, with the access "
+"rights of this user."
+msgstr ""
+"Els correus electrònics de seguiment s'envien en nom d'aquest usuari, amb "
+"els drets d'accés d'aquest usuari."
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_followup_line_form
+msgid "The follow-up responsible of the customer"
+msgstr "El responsable de seguiment del client"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/report/followup_letter.py:0
+msgid ""
+"The followup plan defined for the current company does not have any followup"
+" action."
+msgstr ""
+"El pla de seguiment definit per a l'empresa actual no té cap acció de "
+"seguiment."
+
+#. module: om_account_followup
+#: model:ir.model.fields,help:om_account_followup.field_followup_send__level_id
+msgid ""
+"The level of the reminder sent. It follows the level due for the customer."
+msgstr ""
+"El nivell del recordatori enviat. Segueix el nivell corresponent al client."
+
+#. module: om_account_followup
+#: model:ir.model.fields,help:om_account_followup.field_res_partner__followup_level_due_id
+#: model:ir.model.fields,help:om_account_followup.field_res_users__followup_level_due_id
+msgid "The level of the reminder to send now."
+msgstr "El nivell del recordatori a enviar ara."
+
+#. module: om_account_followup
+#: model:ir.model.fields,help:om_account_followup.field_res_partner__latest_followup_level_id
+#: model:ir.model.fields,help:om_account_followup.field_res_users__latest_followup_level_id
+msgid "The maximum follow-up level"
+msgstr "El nivell màxim de seguiment"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_followup_line_form
+msgid ""
+"The message printed at the top of the customer statement. It can use\n"
+"                                    <code>%(partner_name)s</code> (the customer),\n"
+"                                    <code>%(date)s</code> (the date of the statement),\n"
+"                                    <code>%(company_name)s</code> (your company) and\n"
+"                                    <code>%(user_signature)s</code> (the user printing it).\n"
+"                                    Write <code>%%</code> for a percent sign."
+msgstr ""
+"El missatge imprès a la part superior de l'extracte del client. Pot utilitzar\n"
+"                                    <code>%(partner_name)s</code> (el client),\n"
+"                                    <code>%(date)s</code> (la data de l'extracte),\n"
+"                                    <code>%(company_name)s</code> (la vostra empresa) i\n"
+"                                    <code>%(user_signature)s</code> (l'usuari que l'imprimeix).\n"
+"                                    Escriviu <code>%%</code> per a un signe de percentatge."
+
+#. module: om_account_followup
+#: model:ir.model.fields,help:om_account_followup.field_followup_line__delay
+msgid ""
+"The number of days after the due date of the invoice to wait before sending "
+"the reminder. Could be negative if you want to send a polite alert "
+"beforehand."
+msgstr ""
+"El nombre de dies després de la data de venciment de la factura a esperar "
+"abans d'enviar el recordatori. Pot ser negatiu si voleu enviar una alerta "
+"cordial abans d'hora."
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+msgid "The reminder could not be emailed: the customer has no email address."
+msgstr ""
+"No s'ha pogut enviar el recordatori per correu electrònic: el client no té "
+"cap adreça de correu."
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_followup_form
+msgid ""
+"The reminders are sent when an invoice is overdue by the number of days of a level.\n"
+"                            When a customer has several overdue invoices, the reminder of the most overdue one is\n"
+"                            sent. One plan per company: its customers all follow it."
+msgstr ""
+"Els recordatoris s'envien quan una factura està vençuda pel nombre de dies d'un nivell.\n"
+"                            Quan un client té diverses factures vençudes, s'envia el recordatori de la més vençuda.\n"
+"                            Un pla per empresa: tots els seus clients el segueixen."
+
+#. module: om_account_followup
+#: model:ir.model.fields,help:om_account_followup.field_res_partner__payment_responsible_id
+#: model:ir.model.fields,help:om_account_followup.field_res_users__payment_responsible_id
+msgid ""
+"The user in charge of collecting the payments of this customer: the manual "
+"actions of the follow-ups are assigned to this user."
+msgstr ""
+"L'usuari encarregat de cobrar els pagaments d'aquest client: les accions "
+"manuals dels seguiments s'assignen a aquest usuari."
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+msgid ""
+"There is nothing open to print in the statement of the current company."
+msgstr "No hi ha res obert per imprimir a l'extracte de l'empresa actual."
+
+#. module: om_account_followup
+#: model:ir.model.fields,help:om_account_followup.field_followup_print__date
+msgid "This field allow you to select a forecast date to plan your follow-ups"
+msgstr ""
+"Aquest camp us permet seleccionar una data de previsió per planificar els "
+"vostres seguiments"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.customer_followup_tree
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_followup_open_items
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_stat_list
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_partner_inherit_followup_form
+msgid "Total"
+msgstr "Total"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_customer_statement_document
+msgid "Total Open"
+msgstr "Total obert"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.account_move_line_partner_tree
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_move_line_reconcile_tree
+msgid "Total credit"
+msgstr "Total haver"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.account_move_line_partner_tree
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_move_line_reconcile_tree
+msgid "Total debit"
+msgstr "Total deure"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_followup
+msgid "Total:"
+msgstr "Total:"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_res_partner__unreconciled_aml_ids
+#: model:ir.model.fields,field_description:om_account_followup.field_res_users__unreconciled_aml_ids
+msgid "Unreconciled Aml"
+msgstr "Apunts comptables no conciliats"
+
+#. module: om_account_followup
+#: model:mail.template,name:om_account_followup.email_template_om_account_followup_level2
+msgid "Urging payment follow-up reminder email"
+msgstr "Correu electrònic de recordatori urgent de seguiment de pagament"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_customer_statement_document
+msgid "Vendor Reference"
+msgstr "Referència del proveïdor"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+#: model:ir.actions.report,name:om_account_followup.action_report_vendor_statement
+#: model:ir.model,name:om_account_followup.model_report_om_account_followup_report_vendor_statement
+#: model:mail.template,name:om_account_followup.email_template_vendor_statement
+#: model_terms:ir.ui.view,arch_db:om_account_followup.report_customer_statement_document
+msgid "Vendor Statement"
+msgstr "Extracte de proveïdor"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+msgid "Vendor statement printed"
+msgstr "Extracte de proveïdor imprès"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.customer_followup_search_view
+msgid "Waiting for the Next Reminder"
+msgstr "Esperant el següent recordatori"
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_followup_send__warning
+msgid "Warning"
+msgstr "Avís"
+
+#. module: om_account_followup
+#: model:ir.model.fields,help:om_account_followup.field_followup_line__send_letter
+msgid "When processing, it will print a letter"
+msgstr "En processar, imprimirà una carta"
+
+#. module: om_account_followup
+#: model:ir.model.fields,help:om_account_followup.field_followup_line__send_email
+msgid "When processing, it will send an email"
+msgstr "En processar, enviarà un correu electrònic"
+
+#. module: om_account_followup
+#: model:ir.model.fields,help:om_account_followup.field_followup_line__manual_action
+msgid ""
+"When processing, it will set the manual action to be taken for that "
+"customer. "
+msgstr ""
+"En processar, establirà l'acció manual que cal prendre per a aquest client. "
+
+#. module: om_account_followup
+#: model:ir.model.fields,field_description:om_account_followup.field_res_partner__payment_earliest_due_date
+#: model:ir.model.fields,field_description:om_account_followup.field_res_users__payment_earliest_due_date
+msgid "Worst Due Date"
+msgstr "Data de venciment més antiga"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+msgid "Yes"
+msgstr "Sí"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/partner.py:0
+msgid ""
+"You became responsible to do the next action for the payment follow-up of"
+msgstr ""
+"Us heu convertit en el responsable de fer la següent acció per al seguiment "
+"de pagament de"
+
+#. module: om_account_followup
+#. odoo-python
+#: code:addons/om_account_followup/models/followup.py:0
+msgid ""
+"Your description is invalid, use the right legend or %% if you want to use "
+"the percent character."
+msgstr ""
+"La vostra descripció no és vàlida, feu servir la llegenda correcta o %% si "
+"voleu utilitzar el caràcter de percentatge."
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_followup_line_form
+msgid "e.g. Call the customer"
+msgstr "per exemple, Trucar al client"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_partner_inherit_followup_form
+msgid "e.g. Payment plan agreed with the customer"
+msgstr "per exemple, Pla de pagament acordat amb el client"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_om_account_followup_followup_line_form
+msgid "e.g. Second reminder"
+msgstr "per exemple, Segon recordatori"
+
+#. module: om_account_followup
+#: model_terms:ir.ui.view,arch_db:om_account_followup.view_partner_inherit_followup_form
+msgid "e.g. Will pay half before the 15th, the rest next month"
+msgstr ""
+"per exemple, Pagarà la meitat abans del dia 15, la resta el mes vinent"
+
+#. module: om_account_followup
+#: model:mail.template,subject:om_account_followup.email_template_om_account_followup_default
+#: model:mail.template,subject:om_account_followup.email_template_om_account_followup_level0
+#: model:mail.template,subject:om_account_followup.email_template_om_account_followup_level1
+#: model:mail.template,subject:om_account_followup.email_template_om_account_followup_level2
+msgid "{{ env.company.name }} Payment Reminder"
+msgstr "Recordatori de pagament de {{ env.company.name }}"
+
+#. module: om_account_followup
+#: model:mail.template,subject:om_account_followup.email_template_customer_statement
+#: model:mail.template,subject:om_account_followup.email_template_vendor_statement
+msgid "{{ env.company.name }} Statement of Account"
+msgstr "Extracte de compte de {{ env.company.name }}"

@@ -1,0 +1,1210 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* om_account_reconcile
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-22 07:06+0000\n"
+"PO-Revision-Date: 2026-10-22 07:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/account_move_line.py:0
+msgid "%s group(s) of journal items matched."
+msgstr "S'han aparellat %s grup(s) d'apunts comptables."
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.js:0
+msgid "%s transaction(s) reconciled automatically."
+msgstr "S'han conciliat automàticament %s transacció(ons)."
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.report_bank_reconciliation
+msgid "<strong>As at:</strong>"
+msgstr "<strong>A data:</strong>"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.report_bank_reconciliation
+msgid "<strong>Target Moves:</strong>"
+msgstr "<strong>Moviments de destí:</strong>"
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/account_bank_statement_line.py:0
+msgid "A transaction cannot be matched with itself."
+msgstr "Una transacció no es pot aparellar amb si mateixa."
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_reconcile_items_wizard__account_id
+msgid "Account"
+msgstr "Compte"
+
+#. module: om_account_reconcile
+#: model_terms:ir.actions.act_window,help:om_account_reconcile.action_bank_statement_line
+msgid "Add a transaction"
+msgstr "Afegeix una transacció"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Add counterpart"
+msgstr "Afegeix una contrapartida"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Add journal items to match or a counterpart below."
+msgstr "Afegeix apunts comptables per aparellar o una contrapartida a sota."
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.report_bank_reconciliation
+msgid "Add: uncleared receipts"
+msgstr "Més: cobraments pendents de conciliar"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields.selection,name:om_account_reconcile.selection__om_bank_reconciliation_report__target_move__all
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.report_bank_reconciliation
+msgid "All Entries"
+msgstr "Tots els assentaments"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields.selection,name:om_account_reconcile.selection__om_bank_reconciliation_report__target_move__posted
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.report_bank_reconciliation
+msgid "All Posted Entries"
+msgstr "Tots els assentaments assentats"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Already settled on the other side:"
+msgstr "Ja liquidat a l'altra banda:"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.report_bank_reconciliation
+msgid "Amount"
+msgstr "Import"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Amount Left"
+msgstr "Import restant"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_bank_reconciliation_report__date
+msgid "As at"
+msgstr "A data"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Auto-reconcile"
+msgstr "Conciliació automàtica"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_account_bank_statement_line__om_auto_processed
+msgid "Automatic Reconciliation Tried"
+msgstr "S'ha intentat la conciliació automàtica"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.report_bank_reconciliation
+msgid "Balance per"
+msgstr "Saldo segons"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.report_bank_reconciliation
+msgid "Balance per bank statement"
+msgstr "Saldo segons l'extracte bancari"
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/bank_reconciliation_screen.py:0
+#: model:ir.actions.client,name:om_account_reconcile.action_bank_reconciliation
+#: model:ir.ui.menu,name:om_account_reconcile.menu_bank_reconciliation
+msgid "Bank Reconciliation"
+msgstr "Conciliació bancària"
+
+#. module: om_account_reconcile
+#: model:ir.actions.act_window,name:om_account_reconcile.action_bank_reconciliation_report
+#: model:ir.actions.report,name:om_account_reconcile.action_report_bank_reconciliation
+#: model:ir.model,name:om_account_reconcile.model_om_bank_reconciliation_report
+#: model:ir.model,name:om_account_reconcile.model_report_om_account_reconcile_report_bank_reconciliation
+#: model:ir.ui.menu,name:om_account_reconcile.menu_bank_reconciliation_report
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.report_bank_reconciliation
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_reconciliation_report
+msgid "Bank Reconciliation Statement"
+msgstr "Informe de conciliació bancària"
+
+#. module: om_account_reconcile
+#: model:ir.model,name:om_account_reconcile.model_account_bank_statement_line
+msgid "Bank Statement Line"
+msgstr "Línia de l'extracte bancari"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_reconciliation_report
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_om_reconcile_items_wizard_form
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.report_bank_reconciliation
+msgid "Cash position per books"
+msgstr "Posició de tresoreria segons llibres"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.js:0
+msgid "Choose the account and the journal of the write-off."
+msgstr "Trieu el compte i el diari de l'ajust."
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.js:0
+msgid "Choose the account of the counterpart."
+msgstr "Trieu el compte de la contrapartida."
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/wizard/reconcile_items_wizard.py:0
+msgid "Choose the journal and the account of the write-off."
+msgstr "Trieu el diari i el compte de l'ajust."
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_form
+msgid "Closing Balance"
+msgstr "Saldo de tancament"
+
+#. module: om_account_reconcile
+#: model:ir.model,name:om_account_reconcile.model_res_company
+msgid "Companies"
+msgstr "Empreses"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_bank_reconciliation_report__company_id
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_reconcile_items_wizard__company_id
+msgid "Company"
+msgstr "Empresa"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_reconcile_items_wizard__company_currency_id
+msgid "Company Currency"
+msgstr "Moneda de l'empresa"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_form
+msgid "Computed Balance"
+msgstr "Saldo calculat"
+
+#. module: om_account_reconcile
+#: model:ir.model,name:om_account_reconcile.model_res_config_settings
+msgid "Config Settings"
+msgstr "Paràmetres de configuració"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Counterpart"
+msgstr "Contrapartida"
+
+#. module: om_account_reconcile
+#: model_terms:ir.actions.act_window,help:om_account_reconcile.action_account_matching_rules
+msgid "Create a new matching rule"
+msgstr "Crea una nova regla d'aparellament"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_bank_reconciliation_report__create_uid
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_reconcile_items_wizard__create_uid
+msgid "Created by"
+msgstr "Creat per"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_bank_reconciliation_report__create_date
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_reconcile_items_wizard__create_date
+msgid "Created on"
+msgstr "Creat el"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_reconcile_items_wizard__credit
+msgid "Credit"
+msgstr "Haver"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Ctrl+Enter"
+msgstr "Ctrl+Intro"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_reconcile_items_wizard__writeoff_date
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.report_bank_reconciliation
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_line_search
+msgid "Date"
+msgstr "Data"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_reconcile_items_wizard__debit
+msgid "Debit"
+msgstr "Deure"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_bank_reconciliation_report__show_details
+msgid "Detail the Uncleared Items"
+msgstr "Detalla els apunts pendents de conciliar"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_reconcile_items_wizard__difference
+msgid "Difference"
+msgstr "Diferència"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_account_bank_statement_line__display_name
+#: model:ir.model.fields,field_description:om_account_reconcile.field_account_journal__display_name
+#: model:ir.model.fields,field_description:om_account_reconcile.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:om_account_reconcile.field_account_reconcile_model__display_name
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_bank_reconciliation_report__display_name
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_reconcile_items_wizard__display_name
+#: model:ir.model.fields,field_description:om_account_reconcile.field_report_om_account_reconcile_report_bank_reconciliation__display_name
+#: model:ir.model.fields,field_description:om_account_reconcile.field_res_company__display_name
+#: model:ir.model.fields,field_description:om_account_reconcile.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Nom visible"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Due"
+msgstr "Venciment"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Entry"
+msgstr "Assentament"
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/report/report_bank_reconciliation.py:0
+msgid "Form content is missing, this report cannot be printed."
+msgstr "Falta el contingut del formulari, no es pot imprimir aquest informe."
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Go to the transactions of the journal"
+msgstr "Vés a les transaccions del diari"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_account_bank_statement_line__id
+#: model:ir.model.fields,field_description:om_account_reconcile.field_account_journal__id
+#: model:ir.model.fields,field_description:om_account_reconcile.field_account_move_line__id
+#: model:ir.model.fields,field_description:om_account_reconcile.field_account_reconcile_model__id
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_bank_reconciliation_report__id
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_reconcile_items_wizard__id
+#: model:ir.model.fields,field_description:om_account_reconcile.field_report_om_account_reconcile_report_bank_reconciliation__id
+#: model:ir.model.fields,field_description:om_account_reconcile.field_res_company__id
+#: model:ir.model.fields,field_description:om_account_reconcile.field_res_config_settings__id
+msgid "ID"
+msgstr "ID"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields.selection,name:om_account_reconcile.selection__account_reconcile_model__payment_tolerance_type__amount
+msgid "In amount"
+msgstr "En import"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields.selection,name:om_account_reconcile.selection__account_reconcile_model__payment_tolerance_type__percentage
+msgid "In percentage"
+msgstr "En percentatge"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_reconcile_items_wizard__is_balanced
+msgid "Is Balanced"
+msgstr "Està quadrat"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.report_bank_reconciliation
+msgid "Items not yet matched"
+msgstr "Apunts encara no aparellats"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+#: model:ir.model,name:om_account_reconcile.model_account_journal
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_reconcile_items_wizard__writeoff_journal_id
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_line_search
+msgid "Journal"
+msgstr "Diari"
+
+#. module: om_account_reconcile
+#: model:ir.model,name:om_account_reconcile.model_account_move_line
+msgid "Journal Item"
+msgstr "Apunt comptable"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_reconcile_items_wizard__line_ids
+msgid "Journal Items"
+msgstr "Apunts comptables"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_move_line_match_list
+msgid "Journal Items to Match"
+msgstr "Apunts comptables per aparellar"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_bank_reconciliation_report__journal_ids
+msgid "Journals"
+msgstr "Diaris"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_reconcile_items_wizard__writeoff_label
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.report_bank_reconciliation
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_form
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_line_form
+msgid "Label"
+msgstr "Etiqueta"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.account_journal_dashboard_kanban_view
+msgid "Last Statement"
+msgstr "Últim extracte"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_bank_reconciliation_report__write_uid
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_reconcile_items_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Darrera actualització per"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_bank_reconciliation_report__write_date
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_reconcile_items_wizard__write_date
+msgid "Last Updated on"
+msgstr "Darrera actualització el"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Left on the suspense account:"
+msgstr "Pendent al compte transitori:"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.report_bank_reconciliation
+msgid "Less: uncleared payments"
+msgstr "Menys: pagaments pendents de conciliar"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,help:om_account_reconcile.field_om_bank_reconciliation_report__show_details
+msgid ""
+"List the items behind each total. On a busy account this can run to several "
+"pages."
+msgstr ""
+"Llista els apunts que hi ha darrere de cada total. En un compte amb molta "
+"activitat, això pot ocupar diverses pàgines."
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Load more"
+msgstr "Carrega'n més"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_move_line_match_list
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_om_reconcile_items_wizard_form
+msgid "Match"
+msgstr "Aparella"
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/account_move_line.py:0
+#: model:ir.actions.act_window,name:om_account_reconcile.action_move_line_match
+#: model:ir.model,name:om_account_reconcile.model_om_reconcile_items_wizard
+#: model:ir.ui.menu,name:om_account_reconcile.menu_move_line_match
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_om_reconcile_items_wizard_form
+msgid "Match Journal Items"
+msgstr "Aparella apunts comptables"
+
+#. module: om_account_reconcile
+#: model:ir.actions.server,name:om_account_reconcile.action_match_suggestions
+msgid "Match Suggestions"
+msgstr "Suggeriments d'aparellament"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Match journal items"
+msgstr "Aparella apunts comptables"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Matched with"
+msgstr "Aparellat amb"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_account_reconcile_model__matching_order
+msgid "Matching Order"
+msgstr "Orde d'aparellament"
+
+#. module: om_account_reconcile
+#: model:ir.actions.act_window,name:om_account_reconcile.action_account_matching_rules
+#: model:ir.ui.menu,name:om_account_reconcile.menu_account_matching_rules
+msgid "Matching Rules"
+msgstr "Regles d'aparellament"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields.selection,name:om_account_reconcile.selection__account_reconcile_model__rule_type__matching_rule
+msgid "Matching rule"
+msgstr "Regla d'aparellament"
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/account_reconcile_model.py:0
+msgid "Matching rules must be automatic."
+msgstr "Les regles d'aparellament han de ser automàtiques."
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/bank_reconciliation_screen.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.account_journal_dashboard_kanban_view
+msgid "New Statement"
+msgstr "Nou extracte"
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/bank_reconciliation_screen.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.account_journal_dashboard_kanban_view
+msgid "New Transaction"
+msgstr "Nova transacció"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields.selection,name:om_account_reconcile.selection__account_reconcile_model__matching_order__new_first
+msgid "Newest first"
+msgstr "Més recents primer"
+
+#. module: om_account_reconcile
+#: model_terms:ir.actions.act_window,help:om_account_reconcile.action_move_line_match
+msgid "No journal item to match"
+msgstr "Cap apunt comptable per aparellar"
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/account_move_line.py:0
+msgid "No journal items to match."
+msgstr "No hi ha cap apunt comptable per aparellar."
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "No open journal item found."
+msgstr "No s'ha trobat cap apunt comptable obert."
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/open_items_screen.py:0
+msgid "No partner"
+msgstr "Cap contacte"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "No partner matches your search."
+msgstr "Cap contacte coincideix amb la cerca."
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.js:0
+msgid "No transaction could be reconciled automatically."
+msgstr "No s'ha pogut conciliar cap transacció automàticament."
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "No transaction matches your search."
+msgstr "Cap transacció coincideix amb la cerca."
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "No transaction of this journal is marked to check."
+msgstr "Cap transacció d'aquest diari està marcada per revisar."
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_line_form
+msgid "Notes"
+msgstr "Notes"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Nothing is reconciled on this journal yet."
+msgstr "Encara no s'ha conciliat res en aquest diari."
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Nothing left to clear here."
+msgstr "No queda res per liquidar aquí."
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Nothing left to reconcile on this journal."
+msgstr "No queda res per conciliar en aquest diari."
+
+#. module: om_account_reconcile
+#: model:ir.model.fields.selection,name:om_account_reconcile.selection__account_reconcile_model__matching_order__old_first
+msgid "Oldest first"
+msgstr "Més antics primer"
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/account_bank_statement_line.py:0
+msgid "Only accountants can reconcile transactions."
+msgstr "Només els comptables poden conciliar transaccions."
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_move_line_match_list
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_om_reconcile_items_wizard_form
+msgid "Open Amount"
+msgstr "Import obert"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_move_line_match_list
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_om_reconcile_items_wizard_form
+msgid "Open Amount in Currency"
+msgstr "Import obert en moneda"
+
+#. module: om_account_reconcile
+#: model:ir.actions.client,name:om_account_reconcile.action_open_items_reconciliation
+#: model:ir.ui.menu,name:om_account_reconcile.menu_open_items_reconciliation
+msgid "Open Items"
+msgstr "Apunts oberts"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Open amount"
+msgstr "Import obert"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,help:om_account_reconcile.field_om_reconcile_items_wizard__difference
+msgid "Open amount left once the items are matched together."
+msgstr "Import obert restant un cop aparellats els apunts."
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Open entry"
+msgstr "Obre l'assentament"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Open the entry"
+msgstr "Obre l'assentament"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.report_bank_reconciliation
+msgid "Partner"
+msgstr "Empresa"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_account_reconcile_model__payment_tolerance
+msgid "Payment Tolerance"
+msgstr "Tolerància de pagament"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_account_reconcile_model__payment_tolerance_type
+msgid "Payment Tolerance Type"
+msgstr "Tipus de tolerància de pagament"
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/open_items_screen.py:0
+msgid "Pick at least two journal items to reconcile them together."
+msgstr "Trieu almenys dos apunts comptables per conciliar-los."
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Pick what is owed together with what settles it"
+msgstr "Trieu el que es deu juntament amb el que ho liquida"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_line_form
+msgid "Positive for money received, negative for money spent."
+msgstr "Positiu per a diners rebuts, negatiu per a diners gastats."
+
+#. module: om_account_reconcile
+#: model:ir.model,name:om_account_reconcile.model_account_reconcile_model
+msgid ""
+"Preset to create journal entries during a invoices and payments matching"
+msgstr ""
+"Predefinit per crear assentaments comptables durant un aparellament de "
+"factures i pagaments"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_reconciliation_report
+msgid "Print"
+msgstr "Imprimeix"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.account_journal_dashboard_kanban_view
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_line_form
+msgid "Reconcile"
+msgstr "Concilia"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_res_company__om_reconcile_auto
+#: model:ir.model.fields,field_description:om_account_reconcile.field_res_config_settings__om_reconcile_auto
+msgid "Reconcile New Transactions Automatically"
+msgstr "Concilia les noves transaccions automàticament"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Reconcile and write off"
+msgstr "Concilia i ajusta"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.res_config_settings_view_form
+msgid ""
+"Reconcile the new bank and cash transactions with the automatic "
+"reconciliation models and the open items matching them exactly by amount and"
+" reference."
+msgstr ""
+"Concilia les noves transaccions de banc i caixa amb els models de "
+"conciliació automàtica i els apunts oberts que hi coincideixin exactament "
+"per import i referència."
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_form
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_line_form
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_line_list
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_line_search
+msgid "Reconciled"
+msgstr "Conciliat"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Reconciled amount"
+msgstr "Import conciliat"
+
+#. module: om_account_reconcile
+#: model:ir.ui.menu,name:om_account_reconcile.menu_reconciliation
+msgid "Reconciliation"
+msgstr "Conciliació"
+
+#. module: om_account_reconcile
+#: model:ir.ui.menu,name:om_account_reconcile.menu_account_reconcile_model
+msgid "Reconciliation Models"
+msgstr "Models de conciliació"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields.selection,name:om_account_reconcile.selection__account_reconcile_model__rule_type__reco_model
+msgid "Reconciliation model"
+msgstr "Model de conciliació"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Reconciliation models"
+msgstr "Models de conciliació"
+
+#. module: om_account_reconcile
+#: model:ir.actions.server,name:om_account_reconcile.ir_cron_auto_reconcile_ir_actions_server
+msgid "Reconciliation: reconcile new bank transactions"
+msgstr "Conciliació: concilia noves transaccions bancàries"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.report_bank_reconciliation
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_form
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_line_form
+msgid "Reference"
+msgstr "Referència"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Remove"
+msgstr "Elimina"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Reset"
+msgstr "Reinicia"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_line_list
+msgid "Reviewed"
+msgstr "Revisat"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_account_reconcile_model__rule_type
+msgid "Rule Type"
+msgstr "Tipus de regla"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Search a reference, a partner or an amount"
+msgstr "Cerca una referència, un contacte o un import"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Search label, partner or amount"
+msgstr "Cerca etiqueta, contacte o import"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Search partner, entry or amount"
+msgstr "Cerca contacte, assentament o import"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Select a customer or a vendor to clear what is open."
+msgstr "Seleccioneu un client o proveïdor per liquidar el que està obert."
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Select a transaction to reconcile it."
+msgstr "Seleccioneu una transacció per conciliar-la."
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/account_bank_statement_line.py:0
+msgid "Select journal items to match or add a counterpart first."
+msgstr ""
+"Seleccioneu apunts comptables per aparellar o afegiu primer una "
+"contrapartida."
+
+#. module: om_account_reconcile
+#: model_terms:ir.actions.act_window,help:om_account_reconcile.action_move_line_match
+msgid "Select open journal items of the same account and match them together."
+msgstr ""
+"Seleccioneu apunts comptables oberts del mateix compte i aparelleu-los."
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/account_move_line.py:0
+msgid "Select the journal items to match."
+msgstr "Seleccioneu els apunts comptables per aparellar."
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Settles in full"
+msgstr "Liquida completament"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_form
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_line_search
+msgid "Statement"
+msgstr "Extracte"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Stays open:"
+msgstr "Resta obert:"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Suggested"
+msgstr "Suggerit"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_bank_reconciliation_report__target_move
+msgid "Target Moves"
+msgstr "Moviments de destí"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Taxes"
+msgstr "Impostos"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,help:om_account_reconcile.field_account_bank_statement_line__om_auto_processed
+msgid ""
+"Technical: the automatic reconciliation already looked at this transaction."
+msgstr "Tècnic: la conciliació automàtica ja ha examinat aquesta transacció."
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/account_bank_statement_line.py:0
+#: code:addons/om_account_reconcile/models/account_move_line.py:0
+msgid "The account %s does not allow reconciliation."
+msgstr "El compte %s no permet la conciliació."
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "The amount includes the taxes"
+msgstr "L'import inclou els impostos"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.js:0
+msgid "The amount of the counterpart cannot be zero."
+msgstr "L'import de la contrapartida no pot ser zero."
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_form
+msgid ""
+"The closing balance does not match the opening balance and the transactions: check the\n"
+"                        amounts, or a transaction is missing."
+msgstr ""
+"El saldo de tancament no coincideix amb el saldo d'obertura i les transaccions: comproveu els\n"
+"                        imports, o falta una transacció."
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_om_reconcile_items_wizard_form
+msgid "The items are matched partially: the difference stays open."
+msgstr "Els apunts s'han aparellat parcialment: la diferència resta oberta."
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/account_bank_statement_line.py:0
+#: code:addons/om_account_reconcile/models/account_move_line.py:0
+msgid "The journal entry %s must be posted before being reconciled."
+msgstr "L'assentament comptable %s s'ha d'assentar abans de ser conciliat."
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/account_bank_statement_line.py:0
+msgid "The journal item %s belongs to another company."
+msgstr "L'apunt comptable %s pertany a una altra empresa."
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/account_bank_statement_line.py:0
+#: code:addons/om_account_reconcile/models/account_move_line.py:0
+msgid "The journal item %s is already reconciled."
+msgstr "L'apunt comptable %s ja està conciliat."
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.js:0
+msgid "The journal items are reconciled."
+msgstr "Els apunts comptables estan conciliats."
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/open_items_screen.py:0
+msgid ""
+"The journal items picked are all on the same side: pick what is owed "
+"together with what settles it, e.g. an invoice and its payment."
+msgstr ""
+"Els apunts comptables triats estan tots a la mateixa banda: trieu el que es "
+"deu juntament amb el que ho liquida, p. ex. una factura i el seu pagament."
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/account_move_line.py:0
+msgid "The journal items to match must belong to the same company."
+msgstr ""
+"Els apunts comptables per aparellar han de pertànyer a la mateixa empresa."
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/account_move_line.py:0
+msgid "The journal items to match must use the same account."
+msgstr "Els apunts comptables per aparellar han d'utilitzar el mateix compte."
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.js:0
+msgid "The model %s has nothing to add here."
+msgstr "El model %s no té res a afegir aquí."
+
+#. module: om_account_reconcile
+#: model_terms:ir.actions.act_window,help:om_account_reconcile.action_bank_statement_line
+msgid ""
+"The money received and spent on the account, as the bank statement or the "
+"cash count shows it."
+msgstr ""
+"Els diners rebuts i gastats al compte, tal com ho mostra l'extracte bancari "
+"o l'arqueig de caixa."
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_form
+msgid ""
+"The opening balance differs from the closing balance of the previous "
+"statement."
+msgstr ""
+"El saldo d'obertura difereix del saldo de tancament de l'extracte anterior."
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/account_reconcile_model.py:0
+msgid "The payment tolerance must be positive."
+msgstr "La tolerància de pagament ha de ser positiva."
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/account_reconcile_model.py:0
+msgid "The percentage tolerance must be between 0 and 100."
+msgstr "El percentatge de tolerància ha d'estar entre 0 i 100."
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,help:om_account_reconcile.field_om_bank_reconciliation_report__date
+msgid "The reconciliation is drawn up as at the close of this day."
+msgstr "La conciliació s'elabora a data de tancament d'aquest dia."
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/account_bank_statement_line.py:0
+msgid "The transaction %s is already reconciled."
+msgstr "La transacció %s ja està conciliada."
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "These are all on the same side: add what settles them"
+msgstr "Aquests apunts estan a la mateixa banda: afegiu el que els liquida"
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/account_move_line.py:0
+msgid ""
+"These journal items are being reconciled by someone else, please try again "
+"in a moment."
+msgstr ""
+"Algú altre està conciliant aquests apunts comptables, torneu-ho a provar "
+"d'aquí a un moment."
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.js:0
+msgid "This amount is not a number."
+msgstr "Aquest import no és un número."
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.report_bank_reconciliation
+msgid ""
+"This journal has no outstanding receipts or payments account on its\n"
+"                                payment methods, so payments made through it never reach the ledger.\n"
+"                                The figures below cannot be reconciled until that is set."
+msgstr ""
+"Aquest diari no té cap compte de pagaments o cobraments pendents en els seus\n"
+"                                mètodes de pagament, per la qual cosa els pagaments fets mitjançant aquest no arriben mai al llibre major.\n"
+"                                Les xifres següents no es poden conciliar fins que això estigui configurat."
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/bank_reconciliation_screen.py:0
+msgid "This reconciliation model belongs to another company."
+msgstr "Aquest model de conciliació pertany a una altra empresa."
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/account_bank_statement_line.py:0
+msgid ""
+"This transaction is being reconciled by someone else, please try again in a "
+"moment."
+msgstr ""
+"Algú altre està conciliant aquesta transacció, torneu-ho a provar d'aquí a "
+"un moment."
+
+#. module: om_account_reconcile
+#: model_terms:ir.actions.act_window,help:om_account_reconcile.action_account_matching_rules
+msgid ""
+"Those can be used to automatically match journal items with your statement "
+"lines."
+msgstr ""
+"Aquestes es poden utilitzar per aparellar automàticament apunts comptables "
+"amb les línies de l'extracte."
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_line_search
+msgid "To Check"
+msgstr "Per revisar"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_line_search
+msgid "To Reconcile"
+msgstr "Per conciliar"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.account_journal_dashboard_kanban_view
+msgid "To Review"
+msgstr "Per revisar"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "To check"
+msgstr "Per revisar"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "To receive or to pay:"
+msgstr "Per rebre o per pagar:"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "To reconcile:"
+msgstr "Per conciliar:"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_form
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_line_list
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_move_line_match_list
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_om_reconcile_items_wizard_form
+msgid "Total"
+msgstr "Total"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_line_form
+msgid "Transaction"
+msgstr "Transacció"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.js:0
+#: model:ir.actions.act_window,name:om_account_reconcile.action_bank_statement_line
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_line_list
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_line_search
+msgid "Transactions"
+msgstr "Transaccions"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Undo reconciliation"
+msgstr "Desfés la conciliació"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid ""
+"What is reconciled here are the transactions of your bank: import a bank\n"
+"                                statement, or add a transaction on the journal, and it shows up in this list.\n"
+"                                A payment registered on an invoice waits on the outstanding account until the\n"
+"                                transaction of the bank confirms it."
+msgstr ""
+"El que es concilia aquí són les transaccions del vostre banc: importeu un extracte\n"
+"                                bancari, o afegiu una transacció al diari, i apareixerà en aquesta llista.\n"
+"                                Un pagament registrat en una factura espera al compte de pendents fins que la\n"
+"                                transacció del banc ho confirma."
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_reconciliation_report
+msgid ""
+"What the bank has told you, plus what you have recorded that the bank has\n"
+"                    not seen yet, gives the cash your books believe you hold."
+msgstr ""
+"El que el banc us ha indicat, més el que heu registrat que el banc encara no\n"
+"                    ha vist, dona la tresoreria que els vostres llibres creuen que teniu."
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,help:om_account_reconcile.field_res_company__om_reconcile_auto
+#: model:ir.model.fields,help:om_account_reconcile.field_res_config_settings__om_reconcile_auto
+msgid ""
+"When bank or cash transactions are created or imported, apply the automatic "
+"reconciliation models and reconcile the transactions matching exactly one "
+"open item by amount and reference."
+msgstr ""
+"Quan es creen o s'importen transaccions de banc o caixa, aplica els models "
+"de conciliació automàtica i concilia les transaccions que coincideixin "
+"exactament amb un apunt obert per import i referència."
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_reconcile_items_wizard__writeoff
+msgid "Write Off the Difference"
+msgstr "Ajusta la diferència"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Write the rest off instead of leaving it open"
+msgstr "Ajusta la resta en lloc de deixar-ho obert"
+
+#. module: om_account_reconcile
+#. odoo-python
+#: code:addons/om_account_reconcile/models/account_move_line.py:0
+#: code:addons/om_account_reconcile/wizard/reconcile_items_wizard.py:0
+msgid "Write-off"
+msgstr "Ajust"
+
+#. module: om_account_reconcile
+#: model:ir.model.fields,field_description:om_account_reconcile.field_om_reconcile_items_wizard__writeoff_account_id
+msgid "Write-off Account"
+msgstr "Compte d'ajust"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "Written off:"
+msgstr "Ajustat:"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "already reconciled"
+msgstr "ja conciliat"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.report_bank_reconciliation
+msgid "bank ledger"
+msgstr "llibre major de banc"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.report_bank_reconciliation
+msgid "cash book"
+msgstr "llibre de caixa"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_form
+msgid "e.g. Cash of 16 September"
+msgstr "p. ex. Caixa de 16 de setembre"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "e.g. Early payment discount"
+msgstr "p. ex. Descompte per pagament immediat"
+
+#. module: om_account_reconcile
+#: model_terms:ir.ui.view,arch_db:om_account_reconcile.view_bank_statement_line_form
+msgid "e.g. Office supplies"
+msgstr "p. ex. Material d'oficina"
+
+#. module: om_account_reconcile
+#. odoo-javascript
+#: code:addons/om_account_reconcile/static/src/bank_reconciliation/bank_reconciliation.xml:0
+msgid "items"
+msgstr "apunts"

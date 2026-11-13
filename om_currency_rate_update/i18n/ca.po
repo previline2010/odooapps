@@ -1,0 +1,392 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* om_currency_rate_update
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-22 07:06+0000\n"
+"PO-Revision-Date: 2026-10-22 07:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: om_currency_rate_update
+#. odoo-python
+#: code:addons/om_currency_rate_update/models/res_company.py:0
+msgid "%(count)s rate(s) available for %(date)s, e.g. %(sample)s"
+msgstr ""
+"%(count)s tipus de canvi disponible(s) per a %(date)s, p. ex. %(sample)s"
+
+#. module: om_currency_rate_update
+#. odoo-python
+#: code:addons/om_currency_rate_update/models/res_company.py:0
+msgid "%(count)s rate(s) saved for %(date)s."
+msgstr "%(count)s tipus de canvi desat(s) per a %(date)s."
+
+#. module: om_currency_rate_update
+#. odoo-python
+#: code:addons/om_currency_rate_update/models/rate_providers.py:0
+msgid "%(provider)s answered with an unexpected response (HTTP %(status)s)."
+msgstr ""
+"%(provider)s ha respost amb una resposta inesperada (HTTP %(status)s)."
+
+#. module: om_currency_rate_update
+#. odoo-python
+#: code:addons/om_currency_rate_update/models/rate_providers.py:0
+msgid "%(provider)s answered without rates: %(message)s"
+msgstr "%(provider)s ha respost sense tipus de canvi: %(message)s"
+
+#. module: om_currency_rate_update
+#. odoo-python
+#: code:addons/om_currency_rate_update/models/rate_providers.py:0
+msgid "%(provider)s could not be reached: %(error)s"
+msgstr "No s'ha pogut accedir a %(provider)s: %(error)s"
+
+#. module: om_currency_rate_update
+#. odoo-python
+#: code:addons/om_currency_rate_update/models/rate_providers.py:0
+msgid "%(provider)s refused the request: %(message)s"
+msgstr "%(provider)s ha rebutjat la sol·licitud: %(message)s"
+
+#. module: om_currency_rate_update
+#. odoo-python
+#: code:addons/om_currency_rate_update/models/rate_providers.py:0
+msgid "%s answered without rates."
+msgstr "%s ha respost sense tipus de canvi."
+
+#. module: om_currency_rate_update
+#: model_terms:ir.ui.view,arch_db:om_currency_rate_update.res_config_settings_view_form_rate_update
+msgid "<span class=\"o_light_label\">Last update: </span>"
+msgstr "<span class=\"o_light_label\">Última actualització: </span>"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields,help:om_currency_rate_update.field_res_company__rate_max_change
+#: model:ir.model.fields,help:om_currency_rate_update.field_res_config_settings__rate_max_change
+msgid ""
+"A rate changing more than this percentage from the previous one is not "
+"saved, but reported. 0 saves every rate."
+msgstr ""
+"Un tipus de canvi que canviï més d'aquest percentatge respecte a l'anterior "
+"no es desa, sinó que se n'informa. 0 desa tots els tipus de canvi."
+
+#. module: om_currency_rate_update
+#: model_terms:ir.ui.view,arch_db:om_currency_rate_update.res_config_settings_view_form_rate_update
+msgid "API Key"
+msgstr "Clau API"
+
+#. module: om_currency_rate_update
+#: model:ir.actions.server,name:om_currency_rate_update.ir_cron_update_currency_rates_ir_actions_server
+msgid "Accounting: update the currency rates"
+msgstr "Comptabilitat: actualitza els tipus de canvi de les divises"
+
+#. module: om_currency_rate_update
+#: model_terms:ir.ui.view,arch_db:om_currency_rate_update.res_config_settings_view_form_rate_update
+msgid "All active currencies"
+msgstr "Totes les divises actives"
+
+#. module: om_currency_rate_update
+#: model_terms:ir.ui.view,arch_db:om_currency_rate_update.res_config_settings_view_form_rate_update
+msgid "App ID"
+msgstr "ID de l'App"
+
+#. module: om_currency_rate_update
+#: model_terms:ir.ui.view,arch_db:om_currency_rate_update.res_config_settings_view_form_rate_update
+msgid "Automatic Currency Rates"
+msgstr "Tipus de canvi automàtics de divisa"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_company__rate_fallback_provider
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_config_settings__rate_fallback_provider
+#: model_terms:ir.ui.view,arch_db:om_currency_rate_update.res_config_settings_view_form_rate_update
+msgid "Backup Source"
+msgstr "Font de recanvi"
+
+#. module: om_currency_rate_update
+#: model:ir.model,name:om_currency_rate_update.model_res_company
+msgid "Companies"
+msgstr "Empreses"
+
+#. module: om_currency_rate_update
+#: model:ir.model,name:om_currency_rate_update.model_res_config_settings
+msgid "Config Settings"
+msgstr "Paràmetres de configuració"
+
+#. module: om_currency_rate_update
+#: model_terms:ir.ui.view,arch_db:om_currency_rate_update.res_config_settings_view_form_rate_update
+msgid "Currencies"
+msgstr "Divises"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_company__rate_currency_ids
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_config_settings__rate_currency_ids
+msgid "Currencies to Update"
+msgstr "Divises a actualitzar"
+
+#. module: om_currency_rate_update
+#: model:ir.model,name:om_currency_rate_update.model_res_currency_rate
+msgid "Currency Rate"
+msgstr "Tipus de canvi de la divisa"
+
+#. module: om_currency_rate_update
+#. odoo-python
+#: code:addons/om_currency_rate_update/models/res_config_settings.py:0
+msgid "Currency Rates"
+msgstr "Tipus de canvi de divises"
+
+#. module: om_currency_rate_update
+#. odoo-python
+#: code:addons/om_currency_rate_update/models/res_company.py:0
+msgid "Currency rates not updated"
+msgstr "Tipus de canvi no actualitzats"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields.selection,name:om_currency_rate_update.selection__res_company__rate_interval__daily
+msgid "Daily"
+msgstr "Diàriament"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_company__rate_date_policy
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_config_settings__rate_date_policy
+msgid "Date of the Rates"
+msgstr "Data dels tipus de canvi"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields.selection,name:om_currency_rate_update.selection__res_company__rate_date_policy__source
+msgid "Date of the rates at the source"
+msgstr "Data dels tipus de canvi a la font"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields.selection,name:om_currency_rate_update.selection__res_company__rate_date_policy__today
+msgid "Day of the update"
+msgstr "Dia de l'actualització"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_company__display_name
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_config_settings__display_name
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_currency_rate__display_name
+msgid "Display Name"
+msgstr "Nom a mostrar"
+
+#. module: om_currency_rate_update
+#. odoo-python
+#: code:addons/om_currency_rate_update/models/rate_providers.py:0
+msgid "Enter the App ID of Open Exchange Rates in the settings."
+msgstr "Introduïu l'ID de l'App d'Open Exchange Rates als paràmetres."
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields.selection,name:om_currency_rate_update.selection__res_company__rate_fallback_provider__ecb
+#: model:ir.model.fields.selection,name:om_currency_rate_update.selection__res_company__rate_provider__ecb
+msgid "European Central Bank"
+msgstr "Banc Central Europeu"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields.selection,name:om_currency_rate_update.selection__res_company__rate_fallback_provider__exchangerate_api
+#: model:ir.model.fields.selection,name:om_currency_rate_update.selection__res_company__rate_provider__exchangerate_api
+msgid "ExchangeRate-API"
+msgstr "ExchangeRate-API"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_company__rate_exchangerate_api_key
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_config_settings__rate_exchangerate_api_key
+msgid "ExchangeRate-API Key"
+msgstr "Clau d'ExchangeRate-API"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields.selection,name:om_currency_rate_update.selection__res_company__rate_fallback_provider__frankfurter
+#: model:ir.model.fields.selection,name:om_currency_rate_update.selection__res_company__rate_provider__frankfurter
+msgid "Frankfurter"
+msgstr "Frankfurter"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields,help:om_currency_rate_update.field_res_company__rate_fallback_provider
+#: model:ir.model.fields,help:om_currency_rate_update.field_res_config_settings__rate_fallback_provider
+msgid ""
+"Gives the rates of the currencies the main source does not quote, or all of "
+"them when it fails."
+msgstr ""
+"Proporciona els tipus de canvi de les divises que la font principal no "
+"cotitza, o tots quan aquesta falla."
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_company__id
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_config_settings__id
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_currency_rate__id
+msgid "ID"
+msgstr "ID"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_company__rate_last_update
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_config_settings__rate_last_update
+msgid "Last Update"
+msgstr "Última actualització"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_company__rate_last_message
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_config_settings__rate_last_message
+msgid "Last Update Result"
+msgstr "Resultat de l'última actualització"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields,help:om_currency_rate_update.field_res_company__rate_currency_ids
+#: model:ir.model.fields,help:om_currency_rate_update.field_res_config_settings__rate_currency_ids
+msgid "Leave empty to update every active currency."
+msgstr "Deixeu-ho buit per actualitzar totes les divises actives."
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields.selection,name:om_currency_rate_update.selection__res_company__rate_interval__manual
+msgid "Manually"
+msgstr "Manualment"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_company__rate_max_change
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_config_settings__rate_max_change
+#: model_terms:ir.ui.view,arch_db:om_currency_rate_update.res_config_settings_view_form_rate_update
+msgid "Maximum Change (%)"
+msgstr "Canvi màxim (%)"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields.selection,name:om_currency_rate_update.selection__res_company__rate_interval__monthly
+msgid "Monthly"
+msgstr "Mensualment"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_company__rate_next_date
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_config_settings__rate_next_date
+#: model_terms:ir.ui.view,arch_db:om_currency_rate_update.res_config_settings_view_form_rate_update
+msgid "Next Update"
+msgstr "Propera actualització"
+
+#. module: om_currency_rate_update
+#. odoo-python
+#: code:addons/om_currency_rate_update/models/res_company.py:0
+msgid "No rate available."
+msgstr "Cap tipus de canvi disponible."
+
+#. module: om_currency_rate_update
+#. odoo-python
+#: code:addons/om_currency_rate_update/models/res_company.py:0
+msgid "No rate saved."
+msgstr "Cap tipus de canvi desat."
+
+#. module: om_currency_rate_update
+#: model_terms:ir.ui.view,arch_db:om_currency_rate_update.res_config_settings_view_form_rate_update
+msgid "None"
+msgstr "Cap"
+
+#. module: om_currency_rate_update
+#. odoo-python
+#: code:addons/om_currency_rate_update/models/res_company.py:0
+msgid "Not quoted by the sources: %s"
+msgstr "No cotitzat per les fonts: %s"
+
+#. module: om_currency_rate_update
+#. odoo-python
+#: code:addons/om_currency_rate_update/models/res_company.py:0
+msgid "Not saved, changed more than %(max)s%%: %(currencies)s"
+msgstr "No desat, ha canviat més de %(max)s%%: %(currencies)s"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields.selection,name:om_currency_rate_update.selection__res_company__rate_fallback_provider__openexchangerates
+#: model:ir.model.fields.selection,name:om_currency_rate_update.selection__res_company__rate_provider__openexchangerates
+msgid "Open Exchange Rates"
+msgstr "Open Exchange Rates"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_company__rate_openexchangerates_key
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_config_settings__rate_openexchangerates_key
+msgid "Open Exchange Rates App ID"
+msgstr "ID de l'App d'Open Exchange Rates"
+
+#. module: om_currency_rate_update
+#: model_terms:ir.ui.view,arch_db:om_currency_rate_update.res_config_settings_view_form_rate_update
+msgid "Optional"
+msgstr "Opcional"
+
+#. module: om_currency_rate_update
+#: model_terms:ir.ui.view,arch_db:om_currency_rate_update.res_config_settings_view_form_rate_update
+msgid "Rate Date"
+msgstr "Data del tipus de canvi"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_company__rate_failure_count
+msgid "Rate Failure Count"
+msgstr "Comptador de fallades del tipus de canvi"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_company__rate_provider
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_config_settings__rate_provider
+msgid "Rates Source"
+msgstr "Font dels tipus de canvi"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_currency_rate__rate_source
+#: model_terms:ir.ui.view,arch_db:om_currency_rate_update.res_config_settings_view_form_rate_update
+msgid "Source"
+msgstr "Font"
+
+#. module: om_currency_rate_update
+#: model_terms:ir.ui.view,arch_db:om_currency_rate_update.res_config_settings_view_form_rate_update
+msgid "Test Connection"
+msgstr "Prova de connexió"
+
+#. module: om_currency_rate_update
+#. odoo-python
+#: code:addons/om_currency_rate_update/models/res_company.py:0
+msgid ""
+"The currency rates of %(company)s could not be updated %(count)s times in a "
+"row."
+msgstr ""
+"Els tipus de canvi de divisa de %(company)s no s'han pogut actualitzar "
+"%(count)s vegades seguides."
+
+#. module: om_currency_rate_update
+#. odoo-python
+#: code:addons/om_currency_rate_update/models/res_company.py:0
+msgid "The rates source %s is not available."
+msgstr "La font de tipus de canvi %s no està disponible."
+
+#. module: om_currency_rate_update
+#: model_terms:ir.ui.view,arch_db:om_currency_rate_update.res_config_settings_view_form_rate_update
+msgid ""
+"This source quotes about 30 major currencies, without key. For every currency, choose Open\n"
+"                            Exchange Rates (App ID from openexchangerates.org) or ExchangeRate-API as source or backup."
+msgstr ""
+"Aquesta font cotitza al voltant de 30 divises principals, sense clau. Per a cada divisa, trieu Open\n"
+"                            Exchange Rates (ID d'App de openexchangerates.org) o ExchangeRate-API com a font o recanvi."
+
+#. module: om_currency_rate_update
+#: model_terms:ir.ui.view,arch_db:om_currency_rate_update.res_config_settings_view_form_rate_update
+msgid "Update"
+msgstr "Actualitza"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_company__rate_interval
+#: model:ir.model.fields,field_description:om_currency_rate_update.field_res_config_settings__rate_interval
+msgid "Update Currency Rates"
+msgstr "Actualitza els tipus de canvi de divises"
+
+#. module: om_currency_rate_update
+#: model_terms:ir.ui.view,arch_db:om_currency_rate_update.res_config_settings_view_form_rate_update
+msgid "Update Now"
+msgstr "Actualitza ara"
+
+#. module: om_currency_rate_update
+#: model_terms:ir.ui.view,arch_db:om_currency_rate_update.res_config_settings_view_form_rate_update
+msgid "Update the exchange rates from the source of your choice"
+msgstr "Actualitzeu els tipus de canvi des de la font de la vostra elecció"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields.selection,name:om_currency_rate_update.selection__res_company__rate_interval__weekly
+msgid "Weekly"
+msgstr "Setmanalment"
+
+#. module: om_currency_rate_update
+#: model:ir.model.fields,help:om_currency_rate_update.field_res_currency_rate__rate_source
+msgid "Where the rate comes from; empty when entered by hand."
+msgstr "D'on prové el tipus de canvi; buit quan s'ha introduït manualment."

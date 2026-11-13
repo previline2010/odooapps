@@ -1,0 +1,364 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* om_currency_revaluation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-22 07:06+0000\n"
+"PO-Revision-Date: 2026-10-22 07:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation_line__account_id
+msgid "Account"
+msgstr "Compte"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation__adjustment
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation_line__adjustment
+#: model_terms:ir.ui.view,arch_db:om_currency_revaluation.currency_revaluation_view_form
+msgid "Adjustment"
+msgstr "Ajust"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation_line__revalued
+msgid "At the Closing Rate"
+msgstr "Al tipus de tancament"
+
+#. module: om_currency_revaluation
+#: model_terms:ir.ui.view,arch_db:om_currency_revaluation.currency_revaluation_view_form
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#. module: om_currency_revaluation
+#: model:ir.model,name:om_currency_revaluation.model_res_company
+msgid "Companies"
+msgstr "Empreses"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation__company_id
+msgid "Company"
+msgstr "Empresa"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation_line__company_currency_id
+msgid "Company Currency"
+msgstr "Moneda de l'empresa"
+
+#. module: om_currency_revaluation
+#: model:ir.model,name:om_currency_revaluation.model_res_config_settings
+msgid "Config Settings"
+msgstr "Configuració"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation__create_uid
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation_line__create_uid
+msgid "Created by"
+msgstr "Creat per"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation__create_date
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation_line__create_date
+msgid "Created on"
+msgstr "Creat el"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation__currency_ids
+msgid "Currencies"
+msgstr "Monedes"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation__company_currency_id
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation_line__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: om_currency_revaluation
+#. odoo-python
+#: code:addons/om_currency_revaluation/wizard/currency_revaluation.py:0
+#: model:ir.actions.act_window,name:om_currency_revaluation.action_currency_revaluation
+#: model:ir.model,name:om_currency_revaluation.model_currency_revaluation
+#: model:ir.ui.menu,name:om_currency_revaluation.menu_currency_revaluation
+#: model_terms:ir.ui.view,arch_db:om_currency_revaluation.currency_revaluation_view_form
+#: model_terms:ir.ui.view,arch_db:om_currency_revaluation.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:om_currency_revaluation.view_account_move_filter
+msgid "Currency Revaluation"
+msgstr "Reavaluació de moneda"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_res_company__currency_reval_journal_id
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_res_config_settings__currency_reval_journal_id
+msgid "Currency Revaluation Journal"
+msgstr "Diari de reavaluació de moneda"
+
+#. module: om_currency_revaluation
+#: model:ir.model,name:om_currency_revaluation.model_currency_revaluation_line
+msgid "Currency Revaluation Line"
+msgstr "Línia de reavaluació de moneda"
+
+#. module: om_currency_revaluation
+#. odoo-python
+#: code:addons/om_currency_revaluation/wizard/currency_revaluation.py:0
+msgid "Currency revaluation of %s"
+msgstr "Reavaluació de moneda de %s"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_account_move__display_name
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation__display_name
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation_line__display_name
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_res_company__display_name
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_res_config_settings__display_name
+msgid "Display Name"
+msgstr "Nom a mostrar"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_account_move__id
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation__id
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation_line__id
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_res_company__id
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_res_config_settings__id
+msgid "ID"
+msgstr "ID"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation_line__balance
+msgid "In the Books"
+msgstr "Als llibres"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation__journal_id
+msgid "Journal"
+msgstr "Diari"
+
+#. module: om_currency_revaluation
+#: model:ir.model,name:om_currency_revaluation.model_account_move
+msgid "Journal Entry"
+msgstr "Assentament comptable"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation__write_uid
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation_line__write_uid
+msgid "Last Updated by"
+msgstr "Última actualització per"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation__write_date
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation_line__write_date
+msgid "Last Updated on"
+msgstr "Última actualització el"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,help:om_currency_revaluation.field_currency_revaluation__currency_ids
+msgid ""
+"Leave empty to revalue every currency other than the one of the company."
+msgstr ""
+"Deixeu-ho en blanc per reavaluar totes les monedes excepte la de l'empresa."
+
+#. module: om_currency_revaluation
+#: model_terms:ir.ui.view,arch_db:om_currency_revaluation.currency_revaluation_view_form
+msgid "Nothing is open in a foreign currency on this date."
+msgstr "No hi ha res pendent en moneda estrangera en aquesta data."
+
+#. module: om_currency_revaluation
+#. odoo-python
+#: code:addons/om_currency_revaluation/wizard/currency_revaluation.py:0
+msgid "Nothing is open in a foreign currency to revalue on this date."
+msgstr ""
+"No hi ha res pendent en moneda estrangera per reavaluar en aquesta data."
+
+#. module: om_currency_revaluation
+#. odoo-python
+#: code:addons/om_currency_revaluation/wizard/currency_revaluation.py:0
+msgid "Only the accounting managers can post a currency revaluation."
+msgstr ""
+"Només els responsables de comptabilitat poden publicar una reavaluació de "
+"moneda."
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation_line__amount_currency
+msgid "Open Amount"
+msgstr "Import pendent"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation_line__partner_id
+msgid "Partner"
+msgstr "Contacte"
+
+#. module: om_currency_revaluation
+#: model_terms:ir.ui.view,arch_db:om_currency_revaluation.currency_revaluation_view_form
+msgid "Post Adjustment"
+msgstr "Publica l'ajust"
+
+#. module: om_currency_revaluation
+#: model_terms:ir.ui.view,arch_db:om_currency_revaluation.res_config_settings_view_form
+msgid ""
+"Restate the open foreign currency balances at the rate of a chosen date: the"
+"                                difference is posted on these accounts as an"
+" unrealized gain or loss."
+msgstr ""
+"Reformula els saldos pendents en moneda estrangera al tipus d'una data "
+"triada: la                                diferència es publica en aquests "
+"comptes com a guany o pèrdua no realitzada."
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation__line_ids
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation_line__revaluation_id
+#: model_terms:ir.ui.view,arch_db:om_currency_revaluation.currency_revaluation_view_form
+msgid "Revaluation"
+msgstr "Reavaluació"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_account_bank_statement_line__currency_reval_date
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_account_move__currency_reval_date
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation__date
+msgid "Revaluation Date"
+msgstr "Data de reavaluació"
+
+#. module: om_currency_revaluation
+#. odoo-python
+#: code:addons/om_currency_revaluation/wizard/currency_revaluation.py:0
+msgid "Revaluation of %(amount)s at the rate of %(date)s"
+msgstr "Reavaluació de %(amount)s al tipus de %(date)s"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation__reversal_date
+msgid "Reversal Date"
+msgstr "Data de reversió"
+
+#. module: om_currency_revaluation
+#. odoo-python
+#: code:addons/om_currency_revaluation/wizard/currency_revaluation.py:0
+msgid "Reversal of the currency revaluation of %s"
+msgstr "Reversió de la reavaluació de moneda de %s"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation__reverse
+msgid "Reverse Next Period"
+msgstr "Revertir el període següent"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_res_company__currency_reval_reverse
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_res_config_settings__currency_reval_reverse
+msgid "Reverse the Revaluation"
+msgstr "Revertir la reavaluació"
+
+#. module: om_currency_revaluation
+#: model_terms:ir.ui.view,arch_db:om_currency_revaluation.res_config_settings_view_form
+msgid "Reverse the adjustment at the start of the next period"
+msgstr "Revertir l'ajust a l'inici del període següent"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,help:om_currency_revaluation.field_res_company__currency_reval_reverse
+#: model:ir.model.fields,help:om_currency_revaluation.field_res_config_settings__currency_reval_reverse
+msgid ""
+"Reverse the adjustment entry at the start of the next period: the gains and "
+"the losses are only made when the invoices are paid."
+msgstr ""
+"Revertir l'assentament d'ajust a l'inici del període següent: els guanys i "
+"les pèrdues només es realitzen quan es paguen les factures."
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,help:om_currency_revaluation.field_res_company__currency_reval_gain_account_id
+#: model:ir.model.fields,help:om_currency_revaluation.field_res_config_settings__currency_reval_gain_account_id
+msgid ""
+"The account credited when the open foreign currency balances are worth more "
+"at the closing rate."
+msgstr ""
+"El compte que s'abona quan els saldos pendents en moneda estrangera valen "
+"més al tipus de tancament."
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,help:om_currency_revaluation.field_res_company__currency_reval_loss_account_id
+#: model:ir.model.fields,help:om_currency_revaluation.field_res_config_settings__currency_reval_loss_account_id
+msgid ""
+"The account debited when the open foreign currency balances are worth less "
+"at the closing rate."
+msgstr ""
+"El compte que es carrega quan els saldos pendents en moneda estrangera valen"
+" menys al tipus de tancament."
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,help:om_currency_revaluation.field_account_bank_statement_line__currency_reval_date
+#: model:ir.model.fields,help:om_currency_revaluation.field_account_move__currency_reval_date
+msgid ""
+"The date the open foreign currency balances were revalued at, for the "
+"adjustment entries of the currency revaluation."
+msgstr ""
+"La data en què es van reavaluar els saldos pendents en moneda estrangera, "
+"per als assentaments d'ajust de la reavaluació de moneda."
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,help:om_currency_revaluation.field_res_company__currency_reval_journal_id
+#: model:ir.model.fields,help:om_currency_revaluation.field_res_config_settings__currency_reval_journal_id
+msgid "The journal of the adjustment entries of the currency revaluations."
+msgstr "El diari dels assentaments d'ajust de les reavaluacions de moneda."
+
+#. module: om_currency_revaluation
+#. odoo-python
+#: code:addons/om_currency_revaluation/wizard/currency_revaluation.py:0
+msgid ""
+"The open balances are already revalued on %(date)s by the entry %(entry)s. "
+"Reverse or delete it before revaluing that date again."
+msgstr ""
+"Els saldos pendents ja s'han reavaluat el %(date)s per l'assentament "
+"%(entry)s. Reverteix-lo o elimina'l abans de tornar a reavaluar aquesta "
+"data."
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,help:om_currency_revaluation.field_currency_revaluation__date
+msgid ""
+"The open balances are revalued at the rate of this date, usually the last "
+"day of a period."
+msgstr ""
+"Els saldos pendents es reavaluen al tipus d'aquesta data, generalment "
+"l'últim dia d'un període."
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation__gain_account_id
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_res_company__currency_reval_gain_account_id
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_res_config_settings__currency_reval_gain_account_id
+msgid "Unrealized Gain Account"
+msgstr "Compte de guany no realitzat"
+
+#. module: om_currency_revaluation
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_currency_revaluation__loss_account_id
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_res_company__currency_reval_loss_account_id
+#: model:ir.model.fields,field_description:om_currency_revaluation.field_res_config_settings__currency_reval_loss_account_id
+msgid "Unrealized Loss Account"
+msgstr "Compte de pèrdua no realitzada"
+
+#. module: om_currency_revaluation
+#. odoo-python
+#: code:addons/om_currency_revaluation/wizard/currency_revaluation.py:0
+msgid "Unrealized gain"
+msgstr "Guany no realitzat"
+
+#. module: om_currency_revaluation
+#. odoo-python
+#: code:addons/om_currency_revaluation/wizard/currency_revaluation.py:0
+msgid "Unrealized loss"
+msgstr "Pèrdua no realitzada"
+
+#. module: om_currency_revaluation
+#: model_terms:ir.ui.view,arch_db:om_currency_revaluation.currency_revaluation_view_form
+msgid ""
+"What is still open in a foreign currency is restated at the rate of the revaluation date.\n"
+"                        The difference is posted as one adjustment entry and reversed at the start of the next\n"
+"                        period, since nothing is gained or lost until the invoices are paid."
+msgstr ""
+"El que encara està pendent en una moneda estrangera es reformula al tipus de la data de reavaluació.\n"
+"                        La diferència es publica com un assentament d'ajust i es reverteix a l'inici del següent\n"
+"                        període, ja que no es guanya ni es perd res fins que es paguen les factures."
+
+#. module: om_currency_revaluation
+#: model_terms:ir.ui.view,arch_db:om_currency_revaluation.currency_revaluation_view_form
+msgid "e.g. USD (all the other currencies by default)"
+msgstr "per ex. USD (totes les altres monedes per defecte)"

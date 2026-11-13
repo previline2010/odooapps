@@ -1,0 +1,995 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* om_account_check_printing
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-22 07:06+0000\n"
+"PO-Revision-Date: 2026-10-22 07:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: om_account_check_printing
+#. odoo-python
+#: code:addons/om_account_check_printing/models/check_format.py:0
+msgid "%(words)s and %(cents)s/%(subunits)s"
+msgstr "%(words)s i %(cents)s/%(subunits)s"
+
+#. module: om_account_check_printing
+#: model:ir.actions.report,print_report_name:om_account_check_printing.action_report_check
+msgid "'Cheques - %s' % (object.partner_id.name or '',)"
+msgstr "'Xecs - %s' % (object.partner_id.name or '',)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format__amount_stars
+msgid "**12,345.67** so that nothing can be added."
+msgstr "**12.345,67** de manera que no es pugui afegir res."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format__micr_font
+msgid ""
+"A TrueType E-13B font drawing the transit, on-us and dash symbols on the "
+"letters A, C and D, as most MICR fonts do."
+msgstr ""
+"Una font TrueType E-13B que dibuixa els símbols de trànsit, compte i guió a "
+"les lletres A, C i D, com fan la majoria de fonts MICR."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format__paper_size__a4
+msgid "A4"
+msgstr "A4"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__active
+msgid "Active"
+msgstr "Actiu"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format_line__align
+msgid "Align"
+msgstr "Alinea"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format_line__field__amount
+msgid "Amount in Figures"
+msgstr "Import en xifres"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format_line__field__amount_in_words
+msgid "Amount in Words"
+msgstr "Import en lletres"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format_line__field__amount_in_words_2
+msgid "Amount in Words (Second Language)"
+msgstr "Import en lletres (segona llengua)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__words_uppercase
+msgid "Amount in Words in Capitals"
+msgstr "Import en lletres en majúscules"
+
+#. module: om_account_check_printing
+#: model_terms:ir.ui.view,arch_db:om_account_check_printing.view_check_format_search
+msgid "Any Country"
+msgstr "Qualsevol país"
+
+#. module: om_account_check_printing
+#: model_terms:ir.ui.view,arch_db:om_account_check_printing.view_check_format_form
+#: model_terms:ir.ui.view,arch_db:om_account_check_printing.view_check_format_search
+msgid "Archived"
+msgstr "Arxivat"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format__words_cents__fraction
+msgid "As a Fraction (and 50/100)"
+msgstr "Com a fracció (i 50/100)"
+
+#. module: om_account_check_printing
+#: model:account.check.format,name:om_account_check_printing.check_format_au_leaf
+msgid "Australia / New Zealand Cheque Leaf (175 x 80 mm)"
+msgstr "Full de xec d'Austràlia / Nova Zelanda (175 x 80 mm)"
+
+#. module: om_account_check_printing
+#: model_terms:ir.ui.view,arch_db:om_account_check_printing.check_pages
+msgid "Balance Due"
+msgstr "Saldo pendent"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format_line__bold
+msgid "Bold"
+msgstr "Negreta"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format_line__border
+msgid "Border"
+msgstr "Marc"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format_line__border__box
+msgid "Box"
+msgstr "Caixa"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format__micr_style__ca
+msgid "Canada (CPA-005)"
+msgstr "Canadà (CPA-005)"
+
+#. module: om_account_check_printing
+#: model:account.check.format,name:om_account_check_printing.check_format_ca_cpa
+msgid "Canadian Cheque CPA-006 (8.5 x 3.5 in)"
+msgstr "Xec canadenc CPA-006 (8,5 x 3,5 polzades)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format_line__align__center
+msgid "Center"
+msgstr "Centrat"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__words_cents
+msgid "Cents"
+msgstr "Cèntims"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_res_company__account_check_printing_layout
+msgid "Check Layout"
+msgstr "Disseny de xec"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__micr_bottom
+msgid "Cheque Bottom Edge (mm)"
+msgstr "Marge inferior del xec (mm)"
+
+#. module: om_account_check_printing
+#: model:ir.model,name:om_account_check_printing.model_account_check_format
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_journal__check_format_id
+#: model_terms:ir.ui.view,arch_db:om_account_check_printing.view_check_format_form
+msgid "Cheque Format"
+msgstr "Format de xec"
+
+#. module: om_account_check_printing
+#: model:ir.model,name:om_account_check_printing.model_account_check_format_line
+msgid "Cheque Format Field"
+msgstr "Camp del format de xec"
+
+#. module: om_account_check_printing
+#: model:ir.actions.act_window,name:om_account_check_printing.action_check_format
+#: model:ir.ui.menu,name:om_account_check_printing.menu_check_format
+#: model_terms:ir.ui.view,arch_db:om_account_check_printing.view_check_format_list
+#: model_terms:ir.ui.view,arch_db:om_account_check_printing.view_check_format_search
+msgid "Cheque Formats"
+msgstr "Formats de xec"
+
+#. module: om_account_check_printing
+#: model:account.check.format,name:om_account_check_printing.check_format_leaf
+msgid "Cheque Leaf (202 x 92 mm)"
+msgstr "Full de xec (202 x 92 mm)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format_line__field__check_number
+msgid "Cheque Number"
+msgstr "Número de xec"
+
+#. module: om_account_check_printing
+#: model:ir.actions.report,name:om_account_check_printing.action_report_check_test
+msgid "Cheque Test Print"
+msgstr "Impressió de prova del xec"
+
+#. module: om_account_check_printing
+#: model:account.check.format,name:om_account_check_printing.check_format_a4_middle
+msgid "Cheque in the Middle with 2 Stubs (A4)"
+msgstr "Xec al mig amb 2 matrius (A4)"
+
+#. module: om_account_check_printing
+#: model:account.check.format,name:om_account_check_printing.check_format_a4_top
+msgid "Cheque on Top with 2 Stubs (A4)"
+msgstr "Xec a dalt amb 2 matrius (A4)"
+
+#. module: om_account_check_printing
+#. odoo-python
+#: code:addons/om_account_check_printing/models/check_format.py:0
+msgid "Cheque: %s"
+msgstr "Xec: %s"
+
+#. module: om_account_check_printing
+#: model:ir.model,name:om_account_check_printing.model_res_company
+msgid "Companies"
+msgstr "Empreses"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__company_id
+msgid "Company"
+msgstr "Empresa"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format_line__field__company
+msgid "Company Name"
+msgstr "Nom de l'empresa"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__res_company__account_check_printing_layout__om_account_check_printing_action_report_check
+msgid "Configurable Cheque Format"
+msgstr "Format de xec configurable"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__country_ids
+msgid "Countries"
+msgstr "Països"
+
+#. module: om_account_check_printing
+#: model_terms:ir.actions.act_window,help:om_account_check_printing.action_check_format
+msgid "Create a cheque format"
+msgstr "Crea un format de xec"
+
+#. module: om_account_check_printing
+#. odoo-python
+#: code:addons/om_account_check_printing/models/account_payment.py:0
+msgid "Create a cheque format and choose it on the bank journal %s."
+msgstr "Creeu un format de xec i seleccioneu-lo al diari de banc %s."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__create_uid
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format_line__create_uid
+msgid "Created by"
+msgstr "Creat per"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__create_date
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format_line__create_date
+msgid "Created on"
+msgstr "Creat el"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__amount_with_currency
+msgid "Currency Symbol on the Amount"
+msgstr "Símbol de moneda a l'import"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format__paper_size__custom
+msgid "Custom (cheque leaf)"
+msgstr "Personalitzat (full de xec)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format__date_format__%d_%b_%y
+msgid "DD Mon YYYY"
+msgstr "DD mes AAAA"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format__date_format__%d-%m-%y
+msgid "DD-MM-YYYY"
+msgstr "DD-MM-AAAA"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format__date_format__%d_%m_%y
+msgid "DD.MM.YYYY"
+msgstr "DD.MM.AAAA"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format__date_format__%d/%m/%y
+msgid "DD/MM/YYYY"
+msgstr "DD/MM/AAAA"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format__date_format__%d%m%y
+msgid "DDMMYYYY (date boxes)"
+msgstr "DDMMAAAA (caselles de data)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format_line__field__date
+msgid "Date"
+msgstr "Data"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__date_format
+msgid "Date Format"
+msgstr "Format de data"
+
+#. module: om_account_check_printing
+#: model_terms:ir.ui.view,arch_db:om_account_check_printing.check_pages
+msgid "Description"
+msgstr "Descripció"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__display_name
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format_line__display_name
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_journal__display_name
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_payment__display_name
+#: model:ir.model.fields,field_description:om_account_check_printing.field_ir_actions_report__display_name
+#: model:ir.model.fields,field_description:om_account_check_printing.field_res_company__display_name
+msgid "Display Name"
+msgstr "Nom visible"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format_line__x
+msgid "Distance from the left edge of the page."
+msgstr "Distància des del marge esquerre de la pàgina."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format__micr_right
+msgid ""
+"Distance from the right edge of the cheque to the end of the MICR line: 5/16"
+" inch in the standards."
+msgstr ""
+"Distància des del marge dret del xec fins al final de la línia MICR: 5/16 "
+"polzades segons els estàndards."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format_line__y
+msgid "Distance from the top edge of the page."
+msgstr "Distància des del marge superior de la pàgina."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format__micr_bottom
+msgid ""
+"Distance from the top of the page to the bottom edge of the cheque: the MICR"
+" line is printed at the standard distance above it. Leave at 0 when the "
+"cheque ends with the page."
+msgstr ""
+"Distància des de la part superior de la pàgina fins al marge inferior del "
+"xec: la línia MICR s'imprimeix a la distància estàndard a sobre d'ella. "
+"Deixeu-ho a 0 quan el xec acabi amb la pàgina."
+
+#. module: om_account_check_printing
+#: model_terms:ir.ui.view,arch_db:om_account_check_printing.check_pages
+msgid "Due Date"
+msgstr "Data de venciment"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format_line__field
+msgid "Field"
+msgstr "Camp"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__words_fill
+msgid "Fill the Words Line with Stars"
+msgstr "Omple la línia de text amb asteriscs"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format__words_fill
+msgid "Fills the rest of the amount in words box with stars."
+msgstr "Omple la resta de la caixa de l'import en lletres amb asteriscs."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__stub_top
+msgid "First Stub Top (mm)"
+msgstr "Part superior de la primera matriu (mm)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format_line__field__text
+msgid "Fixed Text"
+msgstr "Text fix"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__font_size
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format_line__font_size
+msgid "Font Size (pt)"
+msgstr "Mida de la font (pt)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format_line__format_id
+msgid "Format"
+msgstr "Format"
+
+#. module: om_account_check_printing
+#. odoo-python
+#: code:addons/om_account_check_printing/models/account_payment.py:0
+msgid "Go to the cheque formats"
+msgstr "Vés als formats de xec"
+
+#. module: om_account_check_printing
+#: model:account.check.format,name:om_account_check_printing.check_format_gulf_leaf
+msgid "Gulf Cheque Leaf (178 x 82 mm)"
+msgstr "Full de xec del Golf (178 x 82 mm)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format_line__height
+msgid "Height (mm)"
+msgstr "Alçada (mm)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format__words_cents
+msgid ""
+"How the cents follow the amount in words: in words, or as a fraction as on "
+"the cheques of the US."
+msgstr ""
+"Com segueixen els cèntims a l'import en lletres: en lletres, o com a fracció"
+" com als xecs dels EUA."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__id
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format_line__id
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_journal__id
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_payment__id
+#: model:ir.model.fields,field_description:om_account_check_printing.field_ir_actions_report__id
+#: model:ir.model.fields,field_description:om_account_check_printing.field_res_company__id
+msgid "ID"
+msgstr "ID"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format__words_cents__words
+msgid "In Words"
+msgstr "En lletres"
+
+#. module: om_account_check_printing
+#: model:ir.model,name:om_account_check_printing.model_account_journal
+msgid "Journal"
+msgstr "Diari"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format__date_format__locale
+msgid "Language format"
+msgstr "Format d'idioma"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__words_lang
+msgid "Language of the Words"
+msgstr "Idioma de les lletres"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__write_uid
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format_line__write_uid
+msgid "Last Updated by"
+msgstr "Darrera actualització per"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__write_date
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format_line__write_date
+msgid "Last Updated on"
+msgstr "Darrera actualització el"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format_line__height
+msgid ""
+"Leave at 0 for a single line. A taller box wraps the text, e.g. the amount "
+"in words on two lines."
+msgstr ""
+"Deixeu-ho a 0 per a una sola línia. Una caixa més alta fa saltar el text, p."
+" ex. l'import en lletres en dues línies."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format_line__font_size
+msgid "Leave at 0 for the size of the format."
+msgstr "Deixeu-ho a 0 per a la mida del format."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format__stub_2_top
+msgid "Leave at 0 to print a single stub."
+msgstr "Deixeu-ho a 0 per imprimir una sola matriu."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format__company_id
+msgid "Leave empty to share the format."
+msgstr "Deixeu-ho en blanc per compartir el format."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format_line__align__left
+msgid "Left"
+msgstr "Esquerra"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format_line__x
+msgid "Left (mm)"
+msgstr "Esquerra (mm)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format_line__letter_spacing
+msgid "Letter Spacing (mm)"
+msgstr "Espaiat entre lletres (mm)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format_line__line_height
+msgid "Line Spacing (mm)"
+msgstr "Espaiat entre línies (mm)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__micr_font
+msgid "MICR Font"
+msgstr "Font MICR"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__micr_font_filename
+msgid "MICR Font File Name"
+msgstr "Nom del fitxer de font MICR"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__micr_font_size
+msgid "MICR Font Size (pt)"
+msgstr "Mida de la font MICR (pt)"
+
+#. module: om_account_check_printing
+#: model_terms:ir.ui.view,arch_db:om_account_check_printing.view_check_format_form
+msgid "MICR Line"
+msgstr "Línia MICR"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__micr_right
+msgid "MICR Right Margin (mm)"
+msgstr "Marge dret MICR (mm)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__micr_style
+msgid "MICR Standard"
+msgstr "Estàndard MICR"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format__date_format__%m/%d/%y
+msgid "MM/DD/YYYY"
+msgstr "MM/DD/AAAA"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format_line__field__memo
+msgid "Memo"
+msgstr "Nota"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format__date_format__%b_%d,_%y
+msgid "Month DD, YYYY"
+msgstr "Mes DD, AAAA"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__offset_y
+msgid "Move Down (mm)"
+msgstr "Desplaça avall (mm)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__offset_x
+msgid "Move Right (mm)"
+msgstr "Desplaça a la dreta (mm)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format__offset_y
+msgid "Moves everything down (negative: up) to adjust to the printer."
+msgstr ""
+"Desplaça tot cap avall (negatiu: cap amunt) per ajustar-ho a la impressora."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format__offset_x
+msgid ""
+"Moves everything to the right (negative: to the left) to adjust to the "
+"printer."
+msgstr ""
+"Desplaça tot cap a la dreta (negatiu: cap a l'esquerra) per ajustar-ho a la "
+"impressora."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format_line__border__none
+msgid "None"
+msgstr "Cap"
+
+#. module: om_account_check_printing
+#: model:account.check.format,words_suffix:om_account_check_printing.check_format_gulf_leaf
+#: model:account.check.format,words_suffix:om_account_check_printing.check_format_leaf
+#: model:account.check.format,words_suffix:om_account_check_printing.check_format_uk_leaf
+msgid "Only"
+msgstr "Només"
+
+#. module: om_account_check_printing
+#: model_terms:ir.ui.view,arch_db:om_account_check_printing.view_check_format_form
+msgid ""
+"Only for cheques printed on blank cheque paper with magnetic toner: the cheques of\n"
+"                                your bank already carry their MICR line. The routing number and the account number\n"
+"                                are taken from the bank account of the journal."
+msgstr ""
+"Només per a xecs impresos sobre paper de xec en blanc amb tòner magnètic: els xecs del\n"
+"                                vostre banc ja porten la seva línia MICR. El número d'enrutament i el número de compte\n"
+"                                s'obtenen del compte bancari del diari."
+
+#. module: om_account_check_printing
+#: model_terms:ir.ui.view,arch_db:om_account_check_printing.check_pages
+msgid "Original Amount"
+msgstr "Import original"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__page_height
+msgid "Page Height (mm)"
+msgstr "Alçada de la pàgina (mm)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__page_width
+msgid "Page Width (mm)"
+msgstr "Amplada de la pàgina (mm)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__paper_size
+#: model_terms:ir.ui.view,arch_db:om_account_check_printing.view_check_format_form
+#: model_terms:ir.ui.view,arch_db:om_account_check_printing.view_check_format_search
+msgid "Paper"
+msgstr "Paper"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__paperformat_id
+msgid "Paper Format"
+msgstr "Format de paper"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format_line__field__payee
+msgid "Payee"
+msgstr "Beneficiari"
+
+#. module: om_account_check_printing
+#: model_terms:ir.ui.view,arch_db:om_account_check_printing.check_pages
+msgid "Payment"
+msgstr "Pagament"
+
+#. module: om_account_check_printing
+#: model:ir.model,name:om_account_check_printing.model_account_payment
+msgid "Payments"
+msgstr "Pagaments"
+
+#. module: om_account_check_printing
+#: model_terms:ir.actions.act_window,help:om_account_check_printing.action_check_format
+msgid ""
+"Place the date, payee and amounts where the cheques of your bank expect "
+"them."
+msgstr ""
+"Col·loqueu la data, el beneficiari i els imports on els espera el xec del "
+"seu banc."
+
+#. module: om_account_check_printing
+#: model_terms:ir.ui.view,arch_db:om_account_check_printing.view_check_format_form
+msgid ""
+"Positions are measured in millimetres from the top left corner of the page. Print a test\n"
+"                                on plain paper, hold it against a cheque and adjust the positions."
+msgstr ""
+"Les posicions es mesuren en mil·límetres des de la cantonada superior esquerra de la pàgina. Imprimeix una prova\n"
+"                                en paper blanc, sobreposa-la al xec i ajusta les posicions."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__preview_html
+#: model_terms:ir.ui.view,arch_db:om_account_check_printing.view_check_format_form
+msgid "Preview"
+msgstr "Previsualització"
+
+#. module: om_account_check_printing
+#: model:ir.actions.report,name:om_account_check_printing.action_report_check
+msgid "Print Cheques"
+msgstr "Imprimeix xecs"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__print_stub
+msgid "Print Payment Stubs"
+msgstr "Imprimeix matrius de pagament"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__print_micr
+msgid "Print the MICR Line"
+msgstr "Imprimeix la línia MICR"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__line_ids
+#: model_terms:ir.ui.view,arch_db:om_account_check_printing.view_check_format_form
+msgid "Printed Fields"
+msgstr "Camps impresos"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format__print_stub
+msgid ""
+"Prints the bills paid by the cheque on the rest of the page, e.g. for "
+"cheques on top of an A4 page."
+msgstr ""
+"Imprimeix les factures pagades pel xec a la resta de la pàgina, p. ex. per a"
+" xecs a dalt d'una pàgina A4."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format__print_micr
+msgid ""
+"Prints the cheque number, the routing number and the account number in "
+"magnetic E-13B characters at the bottom of the cheque, for cheques printed "
+"on blank cheque paper with magnetic toner. Leave it off on the cheques of "
+"your bank, where the line is already printed."
+msgstr ""
+"Imprimeix el número de xec, el número de ruta i el número de compte en "
+"caràcters magnètics E-13B a la part inferior del xec, per a xecs impresos en"
+" paper de xec en blanc amb tòner magnètic. Deixeu-ho desactivat als xecs del"
+" vostre banc, on la línia ja està impresa."
+
+#. module: om_account_check_printing
+#: model:ir.model,name:om_account_check_printing.model_ir_actions_report
+msgid "Report Action"
+msgstr "Acció d'informe"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format_line__align__right
+msgid "Right"
+msgstr "Dreta"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format_line__rotation
+msgid "Rotation (°)"
+msgstr "Rotació (°)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__words_lang_2
+msgid "Second Language of the Words"
+msgstr "Segona llengua de les lletres"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__stub_2_top
+msgid "Second Stub Top (mm)"
+msgstr "Part superior de la segona matriu (mm)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_res_company__account_check_printing_layout
+msgid ""
+"Select the format corresponding to the check paper you will be printing your checks on.\n"
+"In order to disable the printing feature, select 'None'."
+msgstr ""
+"Seleccioneu el format corresponent al paper de xec on imprimireu els vostres xecs.\n"
+"Per tal de desactivar la funció d'impressió, seleccioneu 'Cap'."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__sequence
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format_line__sequence
+msgid "Sequence"
+msgstr "Seqüència"
+
+#. module: om_account_check_printing
+#. odoo-python
+#: code:addons/om_account_check_printing/models/check_format.py:0
+msgid "Set the account number of the bank account to print the MICR line."
+msgstr ""
+"Estableix el número de compte del compte bancari per imprimir la línia MICR."
+
+#. module: om_account_check_printing
+#. odoo-python
+#: code:addons/om_account_check_printing/models/check_format.py:0
+msgid ""
+"Set the bank account of the journal to print the MICR line of the cheques."
+msgstr ""
+"Estableix el compte bancari del diari per imprimir la línia MICR dels xecs."
+
+#. module: om_account_check_printing
+#. odoo-python
+#: code:addons/om_account_check_printing/models/check_format.py:0
+msgid "Set the size of the page of the cheque format %s."
+msgstr "Estableix la mida de la pàgina del format de xec %s."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format_line__letter_spacing
+msgid "Spreads the characters, e.g. the digits of a date in boxes."
+msgstr "Distribueix els caràcters, p. ex. els dígits d'una data en caselles."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__amount_stars
+msgid "Stars around the Amount"
+msgstr "Asteriscs al voltant de l'import"
+
+#. module: om_account_check_printing
+#: model_terms:ir.ui.view,arch_db:om_account_check_printing.view_check_format_form
+msgid "Stubs"
+msgstr "Matrius"
+
+#. module: om_account_check_printing
+#: model_terms:ir.ui.view,arch_db:om_account_check_printing.view_check_format_form
+msgid "Test Print"
+msgstr "Impressió de prova"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format_line__text
+msgid "Text"
+msgstr "Text"
+
+#. module: om_account_check_printing
+#. odoo-python
+#: code:addons/om_account_check_printing/models/check_format.py:0
+msgid "The MICR font size of the cheque format %s must be positive."
+msgstr "La mida de font MICR del format de xec %s ha de ser positiva."
+
+#. module: om_account_check_printing
+#. odoo-python
+#: code:addons/om_account_check_printing/models/check_format.py:0
+msgid "The font size of the cheque format %s must be positive."
+msgstr "La mida de font del format de xec %s ha de ser positiva."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format__words_lang_2
+msgid ""
+"The language of the Amount in Words (Second Language) field, e.g. Arabic on "
+"bilingual cheques."
+msgstr ""
+"L'idioma del camp Import en lletres (segona llengua), p. ex. àrab en xecs "
+"bilingües."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format__words_lang
+msgid ""
+"The language of the amount in words, e.g. English on the cheques of the Gulf"
+" whatever the language of the user. Leave empty for the language of the "
+"user."
+msgstr ""
+"L'idioma de l'import en lletres, p. ex. anglès en els xecs del Golf "
+"independentment de l'idioma de l'usuari. Deixeu-ho en blanc per a l'idioma "
+"de l'usuari."
+
+#. module: om_account_check_printing
+#. odoo-python
+#: code:addons/om_account_check_printing/models/check_format.py:0
+msgid "The preview cannot be shown: %s"
+msgstr "No es pot mostrar la previsualització: %s"
+
+#. module: om_account_check_printing
+#. odoo-python
+#: code:addons/om_account_check_printing/models/check_format.py:0
+msgid "The routing number of a US cheque has 9 digits, not %s."
+msgstr "El número de ruta d'un xec dels EUA té 9 dígits, no %s."
+
+#. module: om_account_check_printing
+#: model_terms:ir.ui.view,arch_db:om_account_check_printing.view_check_format_form
+msgid ""
+"The test print with sample values, updated as you change the format. Print it to check the\n"
+"                        positions on a real cheque."
+msgstr ""
+"La impressió de prova amb valors de mostra, actualitzada a mesura que canvieu el format. Imprimeix-la per comprovar les\n"
+"                        posicions en un xec real."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format__preview_html
+msgid "The test print, with sample values, as it is laid out on the page."
+msgstr ""
+"La impressió de prova, amb valors de mostra, tal com es distribueix a la "
+"pàgina."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format_line__text
+msgid "The text printed by a Fixed Text field, e.g. A/C PAYEE ONLY."
+msgstr ""
+"El text imprès per un camp Text fix, p. ex. NOMÉS PER A PAGAMENT EN COMPTE."
+
+#. module: om_account_check_printing
+#. odoo-python
+#: code:addons/om_account_check_printing/models/check_format.py:0
+msgid ""
+"The transit and institution numbers of a Canadian cheque have 8 digits (e.g."
+" 12345-001), not %s."
+msgstr ""
+"Els números de trànsit i d'institució d'un xec canadenc tenen 8 dígits (p. "
+"ex. 12345-001), no %s."
+
+#. module: om_account_check_printing
+#. odoo-python
+#: code:addons/om_account_check_printing/models/check_format.py:0
+msgid "The width and the line spacing of a printed field must be positive."
+msgstr ""
+"L'amplada i l'espaiat entre línies d'un camp imprès han de ser positius."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format_line__y
+msgid "Top (mm)"
+msgstr "A dalt (mm)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format_line__border__crossing
+msgid "Two Lines (crossing)"
+msgstr "Dues línies (barrat)"
+
+#. module: om_account_check_printing
+#: model:account.check.format,name:om_account_check_printing.check_format_uk_leaf
+msgid "UK / Ireland Cheque Leaf (178 x 86 mm)"
+msgstr "Full de xec del Regne Unit / Irlanda (178 x 86 mm)"
+
+#. module: om_account_check_printing
+#: model:account.check.format,name:om_account_check_printing.check_format_us_ca_leaf
+msgid "US / Canada Business Cheque (8.5 x 3.5 in)"
+msgstr "Xec comercial dels EUA / Canadà (8,5 x 3,5 polzades)"
+
+#. module: om_account_check_printing
+#: model:account.check.format,name:om_account_check_printing.check_format_us_bottom
+msgid "US Cheque at the Bottom with 2 Stubs (Letter)"
+msgstr "Xec dels EUA a baix amb 2 matrius (Carta)"
+
+#. module: om_account_check_printing
+#: model:account.check.format,name:om_account_check_printing.check_format_us_middle
+msgid "US Cheque in the Middle with 2 Stubs (Letter)"
+msgstr "Xec dels EUA al mig amb 2 matrius (Carta)"
+
+#. module: om_account_check_printing
+#: model:account.check.format,name:om_account_check_printing.check_format_us_top
+msgid "US Cheque on Top with 2 Stubs (Letter)"
+msgstr "Xec dels EUA a dalt amb 2 matrius (Carta)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format__paper_size__letter
+msgid "US Letter"
+msgstr "Carta EUA"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format__micr_style__us
+msgid "United States (ANSI X9)"
+msgstr "Estats Units (ANSI X9)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format__micr_style
+msgid ""
+"United States: the cheque number, then the routing number, then the account "
+"number. Canada: the cheque number, then the transit and the institution "
+"numbers, then the account number."
+msgstr ""
+"Estats Units: el número de xec, després el número de ruta, després el número"
+" de compte. Canadà: el número de xec, després els números de trànsit i "
+"d'institució, després el número de compte."
+
+#. module: om_account_check_printing
+#. odoo-python
+#: code:addons/om_account_check_printing/models/check_format.py:0
+msgid "Upload an E-13B font to print the MICR line of the cheque format %s."
+msgstr ""
+"Penjeu una font E-13B per imprimir la línia MICR del format de xec %s."
+
+#. module: om_account_check_printing
+#. odoo-python
+#: code:addons/om_account_check_printing/models/check_format.py:0
+msgid "VOID"
+msgstr "NUL"
+
+#. module: om_account_check_printing
+#: model_terms:ir.ui.view,arch_db:om_account_check_printing.view_check_format_form
+msgid "Values"
+msgstr "Valors"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format__country_ids
+msgid ""
+"Where the cheques of this format are used: a bank journal without a cheque "
+"format takes the first format of the country of its company. Leave empty for"
+" a format used anywhere."
+msgstr ""
+"On s'utilitzen els xecs d'aquest format: un diari de banc sense format de "
+"xec agafa el primer format del país de la seva empresa. Deixeu-ho en blanc "
+"per a un format utilitzat en qualsevol lloc."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_journal__check_format_id
+msgid "Where the fields are printed on the cheques of this bank account."
+msgstr "On s'imprimeixen els camps als xecs d'aquest compte bancari."
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format_line__width
+msgid "Width (mm)"
+msgstr "Amplada (mm)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,field_description:om_account_check_printing.field_account_check_format__words_suffix
+msgid "Words Suffix"
+msgstr "Sufix de lletres"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format__date_format__%y-%m-%d
+msgid "YYYY-MM-DD"
+msgstr "AAAA-MM-DD"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format__date_format__%y/%m/%d
+msgid "YYYY/MM/DD"
+msgstr "AAAA/MM/DD"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields.selection,name:om_account_check_printing.selection__account_check_format__date_format__%y%m%d
+msgid "YYYYMMDD (date boxes)"
+msgstr "AAAAMMDD (caselles de data)"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format_line__rotation
+msgid "e.g. -30 for an A/C Payee crossing."
+msgstr "p. ex. -30 per a un barrat de pagament en compte."
+
+#. module: om_account_check_printing
+#: model_terms:ir.ui.view,arch_db:om_account_check_printing.view_check_format_form
+msgid "e.g. Cheque book of the main bank"
+msgstr "p. ex. Talonari de xecs del banc principal"
+
+#. module: om_account_check_printing
+#: model:ir.model.fields,help:om_account_check_printing.field_account_check_format__words_suffix
+msgid "e.g. Only"
+msgstr "p. ex. Només"

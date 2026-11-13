@@ -1,0 +1,462 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* om_account_cash_forecast
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-22 07:06+0000\n"
+"PO-Revision-Date: 2026-10-22 07:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: om_account_cash_forecast
+#: model_terms:ir.ui.view,arch_db:om_account_cash_forecast.report_cash_forecast
+msgid ", by"
+msgstr ", per"
+
+#. module: om_account_cash_forecast
+#: model_terms:ir.ui.view,arch_db:om_account_cash_forecast.report_cash_forecast
+msgid "<strong>Currency:</strong>"
+msgstr "<strong>Moneda:</strong>"
+
+#. module: om_account_cash_forecast
+#: model_terms:ir.ui.view,arch_db:om_account_cash_forecast.report_cash_forecast
+msgid "<strong>From:</strong>"
+msgstr "<strong>Des de:</strong>"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_item__active
+msgid "Active"
+msgstr "Actiu"
+
+#. module: om_account_cash_forecast
+#: model_terms:ir.actions.act_window,help:om_account_cash_forecast.action_cash_forecast_item
+msgid "Add the receipts and payments the invoices do not show"
+msgstr "Afegiu els cobraments i pagaments que no mostren les factures"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_item__amount
+msgid "Amount"
+msgstr "Import"
+
+#. module: om_account_cash_forecast
+#: model_terms:ir.ui.view,arch_db:om_account_cash_forecast.view_cash_forecast_item_search
+msgid "Archived"
+msgstr "Arxivat"
+
+#. module: om_account_cash_forecast
+#. odoo-python
+#: code:addons/om_account_cash_forecast/report/report_cash_forecast.py:0
+msgid "Bank payments already recorded"
+msgstr "Pagaments bancaris ja registrats"
+
+#. module: om_account_cash_forecast
+#. odoo-python
+#: code:addons/om_account_cash_forecast/report/report_cash_forecast.py:0
+msgid "Bank receipts already recorded"
+msgstr "Cobraments bancaris ja registrats"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_report__period_type
+msgid "By"
+msgstr "Per"
+
+#. module: om_account_cash_forecast
+#: model_terms:ir.ui.view,arch_db:om_account_cash_forecast.view_cash_forecast_report_form
+msgid "Cancel"
+msgstr "Cancel·la"
+
+#. module: om_account_cash_forecast
+#: model:ir.actions.act_window,name:om_account_cash_forecast.action_cash_forecast_report
+#: model:ir.actions.report,name:om_account_cash_forecast.action_report_cash_forecast
+#: model:ir.model,name:om_account_cash_forecast.model_account_cash_forecast_report
+#: model:ir.ui.menu,name:om_account_cash_forecast.menu_cash_forecast_report
+#: model_terms:ir.ui.view,arch_db:om_account_cash_forecast.report_cash_forecast
+#: model_terms:ir.ui.view,arch_db:om_account_cash_forecast.view_cash_forecast_report_form
+msgid "Cash Forecast"
+msgstr "Previsió de tresoreria"
+
+#. module: om_account_cash_forecast
+#: model:ir.model,name:om_account_cash_forecast.model_account_cash_forecast_item
+msgid "Cash Forecast Item"
+msgstr "Element de la previsió de tresoreria"
+
+#. module: om_account_cash_forecast
+#: model:ir.actions.act_window,name:om_account_cash_forecast.action_cash_forecast_item
+#: model:ir.ui.menu,name:om_account_cash_forecast.menu_cash_forecast_item
+msgid "Cash Forecast Items"
+msgstr "Elements de la previsió de tresoreria"
+
+#. module: om_account_cash_forecast
+#: model:ir.model,name:om_account_cash_forecast.model_report_om_account_cash_forecast_report_cash_forecast
+msgid "Cash Forecast Report"
+msgstr "Informe de previsió de tresoreria"
+
+#. module: om_account_cash_forecast
+#: model_terms:ir.ui.view,arch_db:om_account_cash_forecast.report_cash_forecast
+msgid "Closing balance"
+msgstr "Saldo de tancament"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_item__company_id
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_report__company_id
+msgid "Company"
+msgstr "Empresa"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,help:om_account_cash_forecast.field_account_cash_forecast_item__currency_id
+msgid ""
+"Converted to the currency of the company at the rate of the day of the "
+"forecast."
+msgstr ""
+"Convertit a la moneda de l'empresa al tipus de canvi del dia de la previsió."
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_item__create_uid
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_report__create_uid
+msgid "Created by"
+msgstr "Creat per"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_item__create_date
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_report__create_date
+msgid "Created on"
+msgstr "Creat el"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_item__currency_id
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: om_account_cash_forecast
+#. odoo-python
+#: code:addons/om_account_cash_forecast/report/report_cash_forecast.py:0
+msgid "Customer invoices"
+msgstr "Factures de client"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_item__name
+msgid "Description"
+msgstr "Descripció"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_report__display_partners
+msgid "Detail by Partner"
+msgstr "Detall per contacte"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_item__display_name
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_report__display_name
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_report_om_account_cash_forecast_report_cash_forecast__display_name
+msgid "Display Name"
+msgstr "Nom mostrat"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields.selection,name:om_account_cash_forecast.selection__account_cash_forecast_item__recurrence__monthly
+msgid "Every Month"
+msgstr "Cada mes"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields.selection,name:om_account_cash_forecast.selection__account_cash_forecast_item__recurrence__quarterly
+msgid "Every Quarter"
+msgstr "Cada trimestre"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields.selection,name:om_account_cash_forecast.selection__account_cash_forecast_item__recurrence__weekly
+msgid "Every Week"
+msgstr "Cada setmana"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields.selection,name:om_account_cash_forecast.selection__account_cash_forecast_item__recurrence__yearly
+msgid "Every Year"
+msgstr "Cada any"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_report__excel_report_available
+msgid "Excel Report Available"
+msgstr "Informe Excel disponible"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_item__date
+msgid "Expected On"
+msgstr "Previst el"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields.selection,name:om_account_cash_forecast.selection__account_cash_forecast_report__overdue__include
+msgid "Expected now, in an Overdue column"
+msgstr "Previst ara, en una columna de Vencuts"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_report__date_from
+msgid "From"
+msgstr "Des de"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_item__id
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_report__id
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_report_om_account_cash_forecast_report_cash_forecast__id
+msgid "ID"
+msgstr "ID"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_report__include_drafts
+msgid "Include Draft Invoices and Bills"
+msgstr "Incloure esborranys de factures de client i proveïdor"
+
+#. module: om_account_cash_forecast
+#. odoo-python
+#: code:addons/om_account_cash_forecast/wizard/cash_forecast_report.py:0
+msgid ""
+"Install the Accounting Excel Reports module to export the forecast to Excel."
+msgstr ""
+"Instal·leu el mòdul d'Informes Excel de comptabilitat per exportar la "
+"previsió a Excel."
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_item__write_uid
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_report__write_uid
+msgid "Last Updated by"
+msgstr "Última actualització per"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_item__write_date
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_report__write_date
+msgid "Last Updated on"
+msgstr "Última actualització el"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,help:om_account_cash_forecast.field_account_cash_forecast_item__date_end
+msgid "Leave empty to repeat without end."
+msgstr "Deixeu-ho en blanc per repetir indefinidament."
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields.selection,name:om_account_cash_forecast.selection__account_cash_forecast_report__overdue__exclude
+msgid "Left out"
+msgstr "Exclòs"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields.selection,name:om_account_cash_forecast.selection__account_cash_forecast_report__period_type__month
+msgid "Months"
+msgstr "Mesos"
+
+#. module: om_account_cash_forecast
+#: model_terms:ir.ui.view,arch_db:om_account_cash_forecast.report_cash_forecast
+msgid "Net cash flow"
+msgstr "Flux de caixa net"
+
+#. module: om_account_cash_forecast
+#. odoo-python
+#: code:addons/om_account_cash_forecast/report/report_cash_forecast.py:0
+msgid "No partner"
+msgstr "Sense contacte"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_item__note
+msgid "Note"
+msgstr "Nota"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_report__period_count
+msgid "Number of Periods"
+msgstr "Nombre de períodes"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields.selection,name:om_account_cash_forecast.selection__account_cash_forecast_item__recurrence__none
+msgid "Once"
+msgstr "Una vegada"
+
+#. module: om_account_cash_forecast
+#: model_terms:ir.ui.view,arch_db:om_account_cash_forecast.report_cash_forecast
+msgid "Opening balance"
+msgstr "Saldo d'obertura"
+
+#. module: om_account_cash_forecast
+#. odoo-python
+#: code:addons/om_account_cash_forecast/report/report_cash_forecast.py:0
+msgid "Other expected payments"
+msgstr "Altres pagaments previstos"
+
+#. module: om_account_cash_forecast
+#. odoo-python
+#: code:addons/om_account_cash_forecast/report/report_cash_forecast.py:0
+msgid "Other expected receipts"
+msgstr "Altres cobraments previstos"
+
+#. module: om_account_cash_forecast
+#. odoo-python
+#: code:addons/om_account_cash_forecast/report/report_cash_forecast.py:0
+msgid "Overdue"
+msgstr "Vencut"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_report__overdue
+msgid "Overdue Invoices and Bills"
+msgstr "Factures de client i proveïdor vencides"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_item__partner_id
+msgid "Partner"
+msgstr "Contacte"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields.selection,name:om_account_cash_forecast.selection__account_cash_forecast_item__direction__out
+msgid "Payment"
+msgstr "Pagament"
+
+#. module: om_account_cash_forecast
+#. odoo-python
+#: code:addons/om_account_cash_forecast/report/report_cash_forecast.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_cash_forecast.view_cash_forecast_item_search
+msgid "Payments"
+msgstr "Pagaments"
+
+#. module: om_account_cash_forecast
+#. odoo-python
+#: code:addons/om_account_cash_forecast/report/report_cash_forecast.py:0
+msgid "Payments not yet out of the bank"
+msgstr "Pagaments que encara no han sortit del banc"
+
+#. module: om_account_cash_forecast
+#: model_terms:ir.ui.view,arch_db:om_account_cash_forecast.view_cash_forecast_report_form
+msgid "Print"
+msgstr "Imprimeix"
+
+#. module: om_account_cash_forecast
+#: model_terms:ir.ui.view,arch_db:om_account_cash_forecast.view_cash_forecast_report_form
+msgid "Print Excel"
+msgstr "Imprimeix Excel"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields.selection,name:om_account_cash_forecast.selection__account_cash_forecast_item__direction__in
+msgid "Receipt"
+msgstr "Cobrament"
+
+#. module: om_account_cash_forecast
+#. odoo-python
+#: code:addons/om_account_cash_forecast/report/report_cash_forecast.py:0
+#: model_terms:ir.ui.view,arch_db:om_account_cash_forecast.view_cash_forecast_item_search
+msgid "Receipts"
+msgstr "Cobraments"
+
+#. module: om_account_cash_forecast
+#. odoo-python
+#: code:addons/om_account_cash_forecast/report/report_cash_forecast.py:0
+msgid "Receipts not yet in the bank"
+msgstr "Cobraments que encara no han entrat al banc"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_item__recurrence
+msgid "Recurrence"
+msgstr "Recorrència"
+
+#. module: om_account_cash_forecast
+#. odoo-python
+#: code:addons/om_account_cash_forecast/report/report_cash_forecast.py:0
+msgid "Recurring payments"
+msgstr "Pagaments recurrents"
+
+#. module: om_account_cash_forecast
+#. odoo-python
+#: code:addons/om_account_cash_forecast/report/report_cash_forecast.py:0
+msgid "Recurring receipts"
+msgstr "Cobraments recurrents"
+
+#. module: om_account_cash_forecast
+#: model_terms:ir.actions.act_window,help:om_account_cash_forecast.action_cash_forecast_item
+msgid ""
+"Salaries, rent, loan repayments, taxes... once or every month: they are part"
+" of the cash forecast."
+msgstr ""
+"Salaris, lloguers, reemborsaments de préstecs, impostos... una vegada o cada"
+" mes: formen part de la previsió de tresoreria."
+
+#. module: om_account_cash_forecast
+#. odoo-python
+#: code:addons/om_account_cash_forecast/models/cash_forecast_item.py:0
+msgid "The amount of the expected item \"%s\" must be positive."
+msgstr "L'import de l'element previst \"%s\" ha de ser positiu."
+
+#. module: om_account_cash_forecast
+#: model_terms:ir.ui.view,arch_db:om_account_cash_forecast.report_cash_forecast
+msgid ""
+"The balance is the one of the Bank and Cash accounts. The invoices and bills are expected\n"
+"                            on their due date; the payments registered but not reconciled with the bank yet are\n"
+"                            expected on their date."
+msgstr ""
+"El saldo és el dels comptes de banc i caixa. Les factures de client i proveïdor s'esperen\n"
+"                            en la seva data de venciment; els pagaments registrats però encara no conciliats amb el banc s'esperen\n"
+"                            en la seva data."
+
+#. module: om_account_cash_forecast
+#: model_terms:ir.ui.view,arch_db:om_account_cash_forecast.report_cash_forecast
+msgid "The cash balance is expected to go negative."
+msgstr "Es preveu que el saldo de tresoreria passi a ser negatiu."
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,help:om_account_cash_forecast.field_account_cash_forecast_report__include_drafts
+msgid ""
+"The draft invoices and bills are expected on their due date like the posted "
+"ones."
+msgstr ""
+"S'esperen els esborranys de factures de client i proveïdor en la seva data "
+"de venciment com les assentades."
+
+#. module: om_account_cash_forecast
+#. odoo-python
+#: code:addons/om_account_cash_forecast/models/cash_forecast_item.py:0
+msgid "The expected item \"%s\" ends before it starts."
+msgstr "L'element previst \"%s\" finalitza abans de començar."
+
+#. module: om_account_cash_forecast
+#. odoo-python
+#: code:addons/om_account_cash_forecast/wizard/cash_forecast_report.py:0
+msgid "The forecast covers between 1 and 60 periods."
+msgstr "La previsió cobreix entre 1 i 60 períodes."
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,help:om_account_cash_forecast.field_account_cash_forecast_report__overdue
+msgid ""
+"The invoices and bills already due: expected at once, or left out of the "
+"forecast."
+msgstr ""
+"Les factures de client i proveïdor ja vencides: previstes immediatament, o "
+"excloses de la previsió."
+
+#. module: om_account_cash_forecast
+#: model_terms:ir.ui.view,arch_db:om_account_cash_forecast.report_cash_forecast
+msgid "Total"
+msgstr "Total"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_item__direction
+msgid "Type"
+msgstr "Tipus"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields,field_description:om_account_cash_forecast.field_account_cash_forecast_item__date_end
+msgid "Until"
+msgstr "Fins a"
+
+#. module: om_account_cash_forecast
+#. odoo-python
+#: code:addons/om_account_cash_forecast/report/report_cash_forecast.py:0
+msgid "Vendor bills"
+msgstr "Factures de proveïdor"
+
+#. module: om_account_cash_forecast
+#. odoo-python
+#: code:addons/om_account_cash_forecast/wizard/cash_forecast_report.py:0
+msgid "Week of %s"
+msgstr "Setmana del %s"
+
+#. module: om_account_cash_forecast
+#: model:ir.model.fields.selection,name:om_account_cash_forecast.selection__account_cash_forecast_report__period_type__week
+msgid "Weeks"
+msgstr "Setmanes"
